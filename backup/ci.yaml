@@ -18,7 +18,7 @@ jobs:
       - name: Add token
         uses: actions/checkout@v4
         with:
-          repository: peiyingyao/Rule-for-OCD
+          repository: cruz0407/Rule-for-OCD
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set variables
@@ -49,18 +49,24 @@ jobs:
             | cut -d '"' -f 4 \
             | xargs wget -q
           tar -xf subconverter_linux64.tar.gz
-          ./subconverter/subconverter &
-          python3 -m http.server 8080 --bind 127.0.0.1 --directory './rule/' &
+          nohup ./subconverter/subconverter > subconverter.log 2>&1 &
+
+          # 启动 rule 文件夹的本地 HTTP 服务
+          nohup python3 -m http.server 8080 --bind 127.0.0.1 --directory './rule/' > httpserver.log 2>&1 &
 
       - name: Background run mihomo
         run: |
-          curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases \
-            | grep "browser_download_url.*mihomo-linux-amd64-alpha.*.deb" \
-            | head -n 1 \
-            | cut -d '"' -f 4 \
-            | xargs wget -q -O mihomo-linux-amd64-alpha.deb
-          sudo apt install --fix-missing ./mihomo-linux-amd64-alpha.deb
-          /usr/bin/mihomo &
+          URL=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases \
+            | jq -r '.[] | .assets[] | select(.name | test("mihomo-linux-amd64-alpha.*\\.deb")) | .browser_download_url' \
+            | head -n 1)
+          echo "Download URL: $URL"
+          if [ -z "$URL" ]; then
+            echo "Failed to get mihomo download URL"
+            exit 1
+          fi
+          wget -q -O mihomo-linux-amd64-alpha.deb "$URL"
+          sudo dpkg -i mihomo-linux-amd64-alpha.deb || sudo apt-get install -f -y
+          nohup /usr/bin/mihomo > mihomo.log 2>&1 &
 
       - name: start convert
         run: |

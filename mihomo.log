@@ -1,0 +1,8 @@
+time="2025-08-12T15:38:33.017076135Z" level=info msg="Can't find config, create a initial config file"
+time="2025-08-12T15:38:33.017255110Z" level=info msg="Start initial configuration in progress"
+time="2025-08-12T15:38:33.017362371Z" level=info msg="Geodata Loader mode: memconservative"
+time="2025-08-12T15:38:33.017371809Z" level=info msg="Geosite Matcher implementation: succinct"
+time="2025-08-12T15:38:33.017505750Z" level=info msg="Initial configuration complete, total time: 0ms"
+time="2025-08-12T15:38:33.030295724Z" level=info msg="Sniffer is closed"
+time="2025-08-12T15:38:33.030528300Z" level=info msg="Mixed(http+socks) proxy listening at: 127.0.0.1:7890"
+time="2025-08-12T15:38:33.030584185Z" level=info msg="Start initial compatible provider default"
