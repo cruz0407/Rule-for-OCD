@@ -49,8 +49,10 @@ jobs:
             | cut -d '"' -f 4 \
             | xargs wget -q
           tar -xf subconverter_linux64.tar.gz
-          ./subconverter/subconverter &
-          python3 -m http.server 8080 --bind 127.0.0.1 --directory './rule/' &
+          nohup ./subconverter/subconverter > subconverter.log 2>&1 &
+
+          # 启动 rule 文件夹的本地 HTTP 服务
+          nohup python3 -m http.server 8080 --bind 127.0.0.1 --directory './rule/' > httpserver.log 2>&1 &
 
       - name: Background run mihomo
         run: |
@@ -60,7 +62,7 @@ jobs:
             | cut -d '"' -f 4 \
             | xargs wget -q -O mihomo-linux-amd64-alpha.deb
           sudo apt install --fix-missing ./mihomo-linux-amd64-alpha.deb
-          /usr/bin/mihomo &
+          nohup /usr/bin/mihomo > mihomo.log 2>&1 &
 
       - name: start convert
         run: |
