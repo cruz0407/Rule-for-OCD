@@ -56,8 +56,8 @@ jobs:
 
       - name: Background run mihomo
         run: |
-          URL=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases/latest \
-            | jq -r '.assets[] | select(.name | test("mihomo-linux-amd64-alpha.*\\.deb")) | .browser_download_url' \
+          URL=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases \
+            | jq -r '.[] | .assets[] | select(.name | test("mihomo-linux-amd64-alpha.*\\.deb")) | .browser_download_url' \
             | head -n 1)
           echo "Download URL: $URL"
           if [ -z "$URL" ]; then
