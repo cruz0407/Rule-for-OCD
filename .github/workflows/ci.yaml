@@ -56,12 +56,16 @@ jobs:
 
       - name: Background run mihomo
         run: |
-          curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases \
-            | grep "browser_download_url.*mihomo-linux-amd64-alpha.*.deb" \
-            | head -n 1 \
-            | cut -d '"' -f 4 \
-            | xargs wget -q -O mihomo-linux-amd64-alpha.deb
-          sudo apt install --fix-missing ./mihomo-linux-amd64-alpha.deb
+          URL=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases/latest \
+            | jq -r '.assets[] | select(.name | test("mihomo-linux-amd64-alpha.*\\.deb")) | .browser_download_url' \
+            | head -n 1)
+          echo "Download URL: $URL"
+          if [ -z "$URL" ]; then
+            echo "Failed to get mihomo download URL"
+            exit 1
+          fi
+          wget -q -O mihomo-linux-amd64-alpha.deb "$URL"
+          sudo dpkg -i mihomo-linux-amd64-alpha.deb || sudo apt-get install -f -y
           nohup /usr/bin/mihomo > mihomo.log 2>&1 &
 
       - name: start convert
