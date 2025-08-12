@@ -1,1 +1,2 @@
-+.addtoany.com
+payload:
+  - '+.addtoany.com'

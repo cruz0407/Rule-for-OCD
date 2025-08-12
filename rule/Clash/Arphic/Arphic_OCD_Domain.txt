@@ -1,4 +1,5 @@
-+.arphic.com
-+.arphic.com.cn
-+.arphic.com.tw
-+.ifontcloud.com
+payload:
+  - '+.arphic.com'
+  - '+.arphic.com.cn'
+  - '+.arphic.com.tw'
+  - '+.ifontcloud.com'

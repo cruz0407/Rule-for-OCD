@@ -1,3 +1,4 @@
-+.speiyou.com
-+.xesimg.com
-+.xueersi.com
+payload:
+  - '+.speiyou.com'
+  - '+.xesimg.com'
+  - '+.xueersi.com'

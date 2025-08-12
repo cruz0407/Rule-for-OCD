@@ -1,3 +1,4 @@
-+.amazontrust.com
-+.awstrust.com
-+.ss2.us
+payload:
+  - '+.amazontrust.com'
+  - '+.awstrust.com'
+  - '+.ss2.us'

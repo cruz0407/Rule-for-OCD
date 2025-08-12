@@ -1,3 +1,4 @@
-+.youzan.com
-+.youzanyun.com
-+.yzcdn.cn
+payload:
+  - '+.youzan.com'
+  - '+.youzanyun.com'
+  - '+.yzcdn.cn'

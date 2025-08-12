@@ -1,1 +1,2 @@
-+.pbs.org
+payload:
+  - '+.pbs.org'

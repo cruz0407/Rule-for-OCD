@@ -1,1 +1,2 @@
-+.vidol.tv
+payload:
+  - '+.vidol.tv'

@@ -1,2 +1,3 @@
-hamifans.emome.net
-+.skyking.com.tw
+payload:
+  - 'hamifans.emome.net'
+  - '+.skyking.com.tw'

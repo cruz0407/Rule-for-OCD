@@ -1,2 +1,3 @@
-+.trk.bonsa.net
-+.truthsocial.com
+payload:
+  - '+.trk.bonsa.net'
+  - '+.truthsocial.com'

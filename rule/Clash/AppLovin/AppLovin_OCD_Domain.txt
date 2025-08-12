@@ -1,2 +1,3 @@
-+.applovin.com
-+.applvn.com
+payload:
+  - '+.applovin.com'
+  - '+.applvn.com'

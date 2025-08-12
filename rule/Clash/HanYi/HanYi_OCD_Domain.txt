@@ -1,9 +1,10 @@
-hellofontpreview.osscnbeijing.aliyuncs.com
-hellowebfonts.osscnbeijing.aliyuncs.com
-+.fontstar.com.cn
-+.fontstudio.cn
-+.hanyi.com
-+.hanyi.com.cn
-+.hellowebfont.com
-+.ifont.cn
-+.joytype.com
+payload:
+  - 'hellofontpreview.oss-cn-beijing.aliyuncs.com'
+  - 'hellowebfonts.oss-cn-beijing.aliyuncs.com'
+  - '+.fontstar.com.cn'
+  - '+.fontstudio.cn'
+  - '+.hanyi.com'
+  - '+.hanyi.com.cn'
+  - '+.hellowebfont.com'
+  - '+.ifont.cn'
+  - '+.joytype.com'

@@ -1,2 +1,3 @@
-+.haveibeenpwned.com
-+.pwnedpasswords.com
+payload:
+  - '+.haveibeenpwned.com'
+  - '+.pwnedpasswords.com'

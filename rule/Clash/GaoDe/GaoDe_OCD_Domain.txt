@@ -1,9 +1,10 @@
-+.amap.cn
-+.amap.co
-+.amap.link
-+.amap.vip
-+.amap.com
-+.amapauto.com
-+.anav.com
-+.autonavi.com
-+.gaode.com
+payload:
+  - '+.a-map.cn'
+  - '+.a-map.co'
+  - '+.a-map.link'
+  - '+.a-map.vip'
+  - '+.amap.com'
+  - '+.amapauto.com'
+  - '+.anav.com'
+  - '+.autonavi.com'
+  - '+.gaode.com'

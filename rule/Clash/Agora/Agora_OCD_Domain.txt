@@ -1,3 +1,4 @@
-+.agora.io
-+.agoraio.cn
-+.agoralab.co
+payload:
+  - '+.agora.io'
+  - '+.agoraio.cn'
+  - '+.agoralab.co'

@@ -1,4 +1,5 @@
-+.sojump.com
-+.wjx.cn
-+.wjx.com
-+.wjx.top
+payload:
+  - '+.sojump.com'
+  - '+.wjx.cn'
+  - '+.wjx.com'
+  - '+.wjx.top'

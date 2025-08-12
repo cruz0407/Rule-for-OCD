@@ -1,6 +1,7 @@
-+.pycon.org
-+.pypa.io
-+.pypi.io
-+.pypi.org
-+.python.org
-+.pythonhosted.org
+payload:
+  - '+.pycon.org'
+  - '+.pypa.io'
+  - '+.pypi.io'
+  - '+.pypi.org'
+  - '+.python.org'
+  - '+.pythonhosted.org'

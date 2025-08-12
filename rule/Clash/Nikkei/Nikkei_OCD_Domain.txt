@@ -1,3 +1,4 @@
-+.nikkei.co.jp
-+.nikkei.com
-+.nikkei.jp
+payload:
+  - '+.nikkei.co.jp'
+  - '+.nikkei.com'
+  - '+.nikkei.jp'

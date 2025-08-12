@@ -1,3 +1,4 @@
-+.ijoox.com
-+.joox.com
-+.sanook.com
+payload:
+  - '+.i-joox.com'
+  - '+.joox.com'
+  - '+.sanook.com'

@@ -1,1 +1,2 @@
-+.trustwave.com
+payload:
+  - '+.trustwave.com'

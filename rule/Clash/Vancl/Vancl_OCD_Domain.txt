@@ -1,3 +1,4 @@
-+.vancl.com
-+.vanclimg.com
-+.vcimg.com
+payload:
+  - '+.vancl.com'
+  - '+.vanclimg.com'
+  - '+.vcimg.com'

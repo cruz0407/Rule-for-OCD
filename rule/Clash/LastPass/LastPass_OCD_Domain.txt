@@ -1,1 +1,2 @@
-+.lastpass.com
+payload:
+  - '+.lastpass.com'

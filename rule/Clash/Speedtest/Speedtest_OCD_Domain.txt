@@ -1,4 +1,5 @@
-+.fast.com
-+.ooklaserver.net
-+.speed.cloudflare.com
-+.speed.dler.io
+payload:
+  - '+.fast.com'
+  - '+.ooklaserver.net'
+  - '+.speed.cloudflare.com'
+  - '+.speed.dler.io'

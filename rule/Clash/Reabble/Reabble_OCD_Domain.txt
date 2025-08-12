@@ -1,2 +1,3 @@
-+.reabble.cn
-+.reabble.com
+payload:
+  - '+.reabble.cn'
+  - '+.reabble.com'

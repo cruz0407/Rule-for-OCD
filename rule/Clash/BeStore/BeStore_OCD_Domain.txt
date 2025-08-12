@@ -1,3 +1,4 @@
-+.517lppz.com
-+.lppz.com
-+.lppzimg.com
+payload:
+  - '+.517lppz.com'
+  - '+.lppz.com'
+  - '+.lppzimg.com'

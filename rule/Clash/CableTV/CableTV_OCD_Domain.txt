@@ -1,2 +1,3 @@
-+.cabletv.com.hk
-+.icable.com
+payload:
+  - '+.cabletv.com.hk'
+  - '+.i-cable.com'

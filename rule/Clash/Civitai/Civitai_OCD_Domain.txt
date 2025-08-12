@@ -1,1 +1,2 @@
-+.civitai.com
+payload:
+  - '+.civitai.com'

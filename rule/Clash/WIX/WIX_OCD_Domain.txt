@@ -1,9 +1,10 @@
-+.editorx.com
-+.parastorage.com
-+.wixcode.com
-+.wix.com
-+.wixanswers.com
-+.wixapps.net
-+.wixmp.com
-+.wixsite.com
-+.wixstatic.com
+payload:
+  - '+.editorx.com'
+  - '+.parastorage.com'
+  - '+.wix-code.com'
+  - '+.wix.com'
+  - '+.wixanswers.com'
+  - '+.wixapps.net'
+  - '+.wixmp.com'
+  - '+.wixsite.com'
+  - '+.wixstatic.com'

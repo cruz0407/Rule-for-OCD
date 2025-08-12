@@ -1,3 +1,4 @@
-+.addthis.com
-+.addthiscdn.com
-+.addthisedge.com
+payload:
+  - '+.addthis.com'
+  - '+.addthiscdn.com'
+  - '+.addthisedge.com'

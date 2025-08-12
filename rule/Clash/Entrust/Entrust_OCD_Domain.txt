@@ -1,7 +1,8 @@
-+.affirmtrust.com
-+.atos.net
-+.certificat2.com
-+.entrust.net
-+.entrustdatacard.com
-+.myatos.net
-+.trendmicro.com
+payload:
+  - '+.affirmtrust.com'
+  - '+.atos.net'
+  - '+.certificat2.com'
+  - '+.entrust.net'
+  - '+.entrustdatacard.com'
+  - '+.myatos.net'
+  - '+.trendmicro.com'

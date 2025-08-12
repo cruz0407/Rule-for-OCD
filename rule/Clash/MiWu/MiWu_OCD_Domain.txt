@@ -1,3 +1,4 @@
-+.miiiw.cn
-+.miiiw.com
-+.miiiw.net
+payload:
+  - '+.miiiw.cn'
+  - '+.miiiw.com'
+  - '+.miiiw.net'

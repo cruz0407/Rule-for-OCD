@@ -1,3 +1,4 @@
-+.pddpic.com
-+.pinduoduo.com
-+.yangkeduo.com
+payload:
+  - '+.pddpic.com'
+  - '+.pinduoduo.com'
+  - '+.yangkeduo.com'

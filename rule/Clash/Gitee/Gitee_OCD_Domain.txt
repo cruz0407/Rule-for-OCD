@@ -1,2 +1,3 @@
-+.gitee.com
-+.gitee.io
+payload:
+  - '+.gitee.com'
+  - '+.gitee.io'

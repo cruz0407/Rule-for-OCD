@@ -1,7 +1,8 @@
-+.ebi.ac.uk
-+.emblhamburg.de
-+.embl.de
-+.embl.fr
-+.embl.it
-+.embl.org
-+.emblstatic.net
+payload:
+  - '+.ebi.ac.uk'
+  - '+.embl-hamburg.de'
+  - '+.embl.de'
+  - '+.embl.fr'
+  - '+.embl.it'
+  - '+.embl.org'
+  - '+.emblstatic.net'

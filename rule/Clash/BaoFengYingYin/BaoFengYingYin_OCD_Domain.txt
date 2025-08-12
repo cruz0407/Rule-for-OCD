@@ -1,8 +1,9 @@
-+.baofeng.com
-+.baofeng.mobi
-+.baofeng.net
-+.baofengtv.com
-+.bfimg.com
-+.bfshow.cn
-+.bjtndao.org
-+.stormshow.cn
+payload:
+  - '+.baofeng.com'
+  - '+.baofeng.mobi'
+  - '+.baofeng.net'
+  - '+.baofengtv.com'
+  - '+.bfimg.com'
+  - '+.bfshow.cn'
+  - '+.bjtndao.org'
+  - '+.stormshow.cn'

@@ -1,3 +1,4 @@
-itvpnpmobilea.akamaihd.net
-+.itv.com
-+.itvstatic.com
+payload:
+  - 'itvpnpmobile-a.akamaihd.net'
+  - '+.itv.com'
+  - '+.itvstatic.com'

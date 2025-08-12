@@ -1,2 +1,3 @@
-+.kmplayer.com
-+.pandora.tv
+payload:
+  - '+.kmplayer.com'
+  - '+.pandora.tv'

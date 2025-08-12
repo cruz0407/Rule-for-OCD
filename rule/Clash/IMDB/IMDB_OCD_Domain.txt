@@ -1,4 +1,5 @@
-+.boxofficemojo.com
-+.imdb.com
-+.imdb.to
-+.mediaimdb.com
+payload:
+  - '+.boxofficemojo.com'
+  - '+.imdb.com'
+  - '+.imdb.to'
+  - '+.media-imdb.com'

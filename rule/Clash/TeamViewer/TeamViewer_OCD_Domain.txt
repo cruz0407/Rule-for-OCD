@@ -1,1 +1,2 @@
-+.teamviewer.com
+payload:
+  - '+.teamviewer.com'

@@ -1,4 +1,5 @@
-+.fsdn.com
-+.sf.net
-+.sourceforge.com
-+.sourceforge.net
+payload:
+  - '+.fsdn.com'
+  - '+.sf.net'
+  - '+.sourceforge.com'
+  - '+.sourceforge.net'

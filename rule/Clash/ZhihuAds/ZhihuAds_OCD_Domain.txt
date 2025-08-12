@@ -1,3 +1,4 @@
-appcloud2.in.zhihu.com
-mqtt.zhihu.com
-sugar.zhihu.com
+payload:
+  - 'appcloud2.in.zhihu.com'
+  - 'mqtt.zhihu.com'
+  - 'sugar.zhihu.com'

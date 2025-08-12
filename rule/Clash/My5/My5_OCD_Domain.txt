@@ -1,3 +1,4 @@
-d349g9zuie06uo.cloudfront.net
-+.channel5.com
-+.my5.tv
+payload:
+  - 'd349g9zuie06uo.cloudfront.net'
+  - '+.channel5.com'
+  - '+.my5.tv'

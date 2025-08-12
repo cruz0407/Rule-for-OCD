@@ -1,3 +1,4 @@
-+.api.tv.colnv.com
-+.italkbb.com
-+.italkbbtv.com
+payload:
+  - '+.api.tv.colnv.com'
+  - '+.italkbb.com'
+  - '+.italkbbtv.com'

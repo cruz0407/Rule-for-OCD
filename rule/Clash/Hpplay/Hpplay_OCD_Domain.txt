@@ -1,5 +1,6 @@
-+.hpplay.cn
-+.hpplay.com.cn
-+.mirrorcast.cn
-+.mirrorcast.com.cn
-+.mirrorcast.tv
+payload:
+  - '+.hpplay.cn'
+  - '+.hpplay.com.cn'
+  - '+.mirrorcast.cn'
+  - '+.mirrorcast.com.cn'
+  - '+.mirrorcast.tv'

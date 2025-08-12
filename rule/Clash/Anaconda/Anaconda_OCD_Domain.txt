@@ -1,4 +1,5 @@
-+.anaconda.cloud
-+.anaconda.com
-+.anaconda.org
-+.conda.io
+payload:
+  - '+.anaconda.cloud'
+  - '+.anaconda.com'
+  - '+.anaconda.org'
+  - '+.conda.io'

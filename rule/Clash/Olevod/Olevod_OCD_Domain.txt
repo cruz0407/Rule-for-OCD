@@ -1,4 +1,5 @@
-+.haiwaikan.com
-+.iole.tv
-+.olehd.com
-+.olelive.com
+payload:
+  - '+.haiwaikan.com'
+  - '+.iole.tv'
+  - '+.olehd.com'
+  - '+.olelive.com'

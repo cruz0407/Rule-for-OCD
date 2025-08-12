@@ -1,2 +1,3 @@
-+.terabox.com
-+.teraboxcdn.com
+payload:
+  - '+.terabox.com'
+  - '+.teraboxcdn.com'

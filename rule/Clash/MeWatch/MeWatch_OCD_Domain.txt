@@ -1,1 +1,2 @@
-+.mewatch.sg
+payload:
+  - '+.mewatch.sg'

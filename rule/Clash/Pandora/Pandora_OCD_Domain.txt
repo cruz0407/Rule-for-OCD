@@ -1,2 +1,3 @@
-+.pcdn.us
-+.pandora.com
+payload:
+  - '+.p-cdn.us'
+  - '+.pandora.com'

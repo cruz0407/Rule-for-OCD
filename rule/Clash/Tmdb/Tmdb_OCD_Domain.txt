@@ -1,2 +1,3 @@
-+.themoviedb.org
-+.tmdb.org
+payload:
+  - '+.themoviedb.org'
+  - '+.tmdb.org'

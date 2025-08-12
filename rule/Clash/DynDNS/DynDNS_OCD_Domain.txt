@@ -1,8 +1,9 @@
-+.blogdns.org
-+.dyn.com
-+.dyndnsip.com
-+.dyndnspics.com
-+.dyndns.org
-+.frompr.com
-+.fromsd.com
-+.isahunter.com
+payload:
+  - '+.blogdns.org'
+  - '+.dyn.com'
+  - '+.dyndns-ip.com'
+  - '+.dyndns-pics.com'
+  - '+.dyndns.org'
+  - '+.from-pr.com'
+  - '+.from-sd.com'
+  - '+.is-a-hunter.com'

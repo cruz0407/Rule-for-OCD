@@ -1,1 +1,2 @@
-+.ads.wteam.xyz
+payload:
+  - '+.ads.wteam.xyz'

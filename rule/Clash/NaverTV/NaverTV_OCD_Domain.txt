@@ -1,2 +1,3 @@
-+.naver.com
-+.smartmediarep.com
+payload:
+  - '+.naver.com'
+  - '+.smartmediarep.com'

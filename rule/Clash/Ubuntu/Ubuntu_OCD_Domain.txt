@@ -1,54 +1,55 @@
-+.aerialline.com
-+.askubuntu.com
-+.canonical.com
-+.debianadmin.com
-+.debuntu.org
-+.fullcirclemagazine.org
-+.iloveubuntu.net
-+.omgubuntu.co.uk
-+.snapcraft.io
-+.ualinux.com
-+.ubucentrum.net
-+.ubuntubr.org
-+.ubuntucl.org
-+.ubuntufi.org
-+.ubuntufr.org
-+.ubuntugr.org
-+.ubuntuhr.org
-+.ubuntuie.org
-+.ubuntuit.org
-+.ubuntumanual.org
-+.ubuntunews.ru
-+.ubuntunl.org
-+.ubuntupe.org
-+.ubuntupt.org
-+.ubunturs.org
-+.ubuntuse.org
-+.ubuntutouch.io
-+.ubuntutr.net
-+.ubuntutw.org
-+.ubuntuvn.org
-+.ubuntuza.org
-+.ubuntu.com
-+.ubuntu.cz
-+.ubuntu.hu
-+.ubuntu.ir
-+.ubuntu.lt
-+.ubuntu.lv
-+.ubuntu.net
-+.ubuntu.or.kr
-+.ubuntu.org.cn
-+.ubuntu.pl
-+.ubuntu.ro
-+.ubuntu.ru
-+.ubuntu.se
-+.ubuntu.si
-+.ubuntu.sk
-+.ubuntuclub.com
-+.ubuntuforums.org
-+.ubuntugeek.com
-+.ubuntuguide.org
-+.ubuntulinux.jp
-+.ubuntulinux.org
-+.ubuntustats.com
-+.ubuntuusers.de
+payload:
+  - '+.aerialline.com'
+  - '+.askubuntu.com'
+  - '+.canonical.com'
+  - '+.debianadmin.com'
+  - '+.debuntu.org'
+  - '+.fullcirclemagazine.org'
+  - '+.iloveubuntu.net'
+  - '+.omgubuntu.co.uk'
+  - '+.snapcraft.io'
+  - '+.ualinux.com'
+  - '+.ubucentrum.net'
+  - '+.ubuntu-br.org'
+  - '+.ubuntu-cl.org'
+  - '+.ubuntu-fi.org'
+  - '+.ubuntu-fr.org'
+  - '+.ubuntu-gr.org'
+  - '+.ubuntu-hr.org'
+  - '+.ubuntu-ie.org'
+  - '+.ubuntu-it.org'
+  - '+.ubuntu-manual.org'
+  - '+.ubuntu-news.ru'
+  - '+.ubuntu-nl.org'
+  - '+.ubuntu-pe.org'
+  - '+.ubuntu-pt.org'
+  - '+.ubuntu-rs.org'
+  - '+.ubuntu-se.org'
+  - '+.ubuntu-touch.io'
+  - '+.ubuntu-tr.net'
+  - '+.ubuntu-tw.org'
+  - '+.ubuntu-vn.org'
+  - '+.ubuntu-za.org'
+  - '+.ubuntu.com'
+  - '+.ubuntu.cz'
+  - '+.ubuntu.hu'
+  - '+.ubuntu.ir'
+  - '+.ubuntu.lt'
+  - '+.ubuntu.lv'
+  - '+.ubuntu.net'
+  - '+.ubuntu.or.kr'
+  - '+.ubuntu.org.cn'
+  - '+.ubuntu.pl'
+  - '+.ubuntu.ro'
+  - '+.ubuntu.ru'
+  - '+.ubuntu.se'
+  - '+.ubuntu.si'
+  - '+.ubuntu.sk'
+  - '+.ubuntuclub.com'
+  - '+.ubuntuforums.org'
+  - '+.ubuntugeek.com'
+  - '+.ubuntuguide.org'
+  - '+.ubuntulinux.jp'
+  - '+.ubuntulinux.org'
+  - '+.ubuntustats.com'
+  - '+.ubuntuusers.de'

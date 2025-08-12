@@ -1,4 +1,5 @@
-+.tidalcms.s3.amazonaws.com
-+.tidal.com
-+.tidalhifi.com
-+.wimpmusic.com
+payload:
+  - '+.tidal-cms.s3.amazonaws.com'
+  - '+.tidal.com'
+  - '+.tidalhifi.com'
+  - '+.wimpmusic.com'

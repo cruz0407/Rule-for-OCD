@@ -1,5 +1,6 @@
-+.happyon.jp
-+.hjholdings.jp
-+.hulu.jp
-+.streaks.jp
-+.yb.uncn.jp
+payload:
+  - '+.happyon.jp'
+  - '+.hjholdings.jp'
+  - '+.hulu.jp'
+  - '+.streaks.jp'
+  - '+.yb.uncn.jp'

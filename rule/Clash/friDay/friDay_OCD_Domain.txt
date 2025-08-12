@@ -1,2 +1,3 @@
-+.fetnet.net
-+.friday.tw
+payload:
+  - '+.fetnet.net'
+  - '+.friday.tw'

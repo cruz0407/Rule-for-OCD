@@ -1,2 +1,3 @@
-litvfreemobilehichannel.cdn.hinet.net
-+.litv.tv
+payload:
+  - 'litvfreemobile-hichannel.cdn.hinet.net'
+  - '+.litv.tv'

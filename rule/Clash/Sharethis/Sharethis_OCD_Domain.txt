@@ -1,1 +1,2 @@
-+.sharethis.com
+payload:
+  - '+.sharethis.com'

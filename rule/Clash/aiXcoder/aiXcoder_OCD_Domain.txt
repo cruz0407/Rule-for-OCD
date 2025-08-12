@@ -1,2 +1,3 @@
-+.aixcoder.com
-+.nnthink.com
+payload:
+  - '+.aixcoder.com'
+  - '+.nnthink.com'

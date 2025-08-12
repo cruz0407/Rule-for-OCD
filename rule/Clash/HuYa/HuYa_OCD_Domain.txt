@@ -1,4 +1,5 @@
-+.huya.com
-+.huyagame.cn
-+.peiwanlu.com
-+.snapplay.com
+payload:
+  - '+.huya.com'
+  - '+.huyagame.cn'
+  - '+.peiwanlu.com'
+  - '+.snapplay.com'

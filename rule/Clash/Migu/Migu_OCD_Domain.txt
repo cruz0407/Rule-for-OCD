@@ -1,3 +1,4 @@
-+.cmvideo.cn
-+.migu.cn
-+.miguvideo.com
+payload:
+  - '+.cmvideo.cn'
+  - '+.migu.cn'
+  - '+.miguvideo.com'

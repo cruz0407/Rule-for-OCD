@@ -1,4 +1,5 @@
-+.6park.com
-+.6parkbbs.com
-+.6parknews.com
-+.cool18.com
+payload:
+  - '+.6park.com'
+  - '+.6parkbbs.com'
+  - '+.6parknews.com'
+  - '+.cool18.com'

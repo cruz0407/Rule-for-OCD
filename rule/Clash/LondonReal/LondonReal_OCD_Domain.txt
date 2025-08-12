@@ -1,2 +1,3 @@
-+.freedomplatform.tv
-+.londonreal.tv
+payload:
+  - '+.freedomplatform.tv'
+  - '+.londonreal.tv'

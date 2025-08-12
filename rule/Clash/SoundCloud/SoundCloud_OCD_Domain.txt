@@ -1,3 +1,4 @@
-+.pcdn.us
-+.sndcdn.com
-+.soundcloud.com
+payload:
+  - '+.p-cdn.us'
+  - '+.sndcdn.com'
+  - '+.soundcloud.com'

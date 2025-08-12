@@ -1,2 +1,3 @@
-beta.apple.com
-testflight.apple.com
+payload:
+  - 'beta.apple.com'
+  - 'testflight.apple.com'

@@ -1,3 +1,4 @@
-+.okex.com
-+.oklink.com
-+.okx.com
+payload:
+  - '+.okex.com'
+  - '+.oklink.com'
+  - '+.okx.com'

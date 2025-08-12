@@ -1,6 +1,7 @@
-account.synology.com
-global.quickconnect.cn
-sns.synology.com
-+.download.synology.com
-+.quickconnect.com
-+.quickconnect.to
+payload:
+  - 'account.synology.com'
+  - 'global.quickconnect.cn'
+  - 'sns.synology.com'
+  - '+.download.synology.com'
+  - '+.quickconnect.com'
+  - '+.quickconnect.to'

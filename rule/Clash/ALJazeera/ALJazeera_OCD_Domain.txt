@@ -1,7 +1,8 @@
-+.ajplus.net
-+.aljazeera.com
-+.aljazeera.net
-+.palestineremix.com
-+.sarajevopodopsadom.com
-+.srebrenica360.com
-+.syhacked.com
+payload:
+  - '+.ajplus.net'
+  - '+.aljazeera.com'
+  - '+.aljazeera.net'
+  - '+.palestineremix.com'
+  - '+.sarajevopodopsadom.com'
+  - '+.srebrenica360.com'
+  - '+.syhacked.com'

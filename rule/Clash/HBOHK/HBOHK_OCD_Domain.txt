@@ -1,24 +1,25 @@
-wmff.warnermediacdn.com
-+.hboasia.com
-+.hboasia1i.akamaihd.net
-+.hboasia2i.akamaihd.net
-+.hboasia3i.akamaihd.net
-+.hboasia4i.akamaihd.net
-+.hboasia5i.akamaihd.net
-+.hboasialive.akamaized.net
-+.hbogo.co.th
-+.hbogo.com
-+.hbogo.eu
-+.hbogoasia.com
-+.hbogoasia.hk
-+.hbogoasia.id
-+.hbogoasia.ph
-+.hbogoasia.sg
-+.hbogoasia.tw
-+.hbogoprodvod.akamaized.net
-+.hbomaxcdn.com
-+.nowashare.com
-+.nowtv.com
-+.now.com.hk
-+.nowe.com
-+.nowe.hk
+payload:
+  - 'wmff.warnermediacdn.com'
+  - '+.hboasia.com'
+  - '+.hboasia1-i.akamaihd.net'
+  - '+.hboasia2-i.akamaihd.net'
+  - '+.hboasia3-i.akamaihd.net'
+  - '+.hboasia4-i.akamaihd.net'
+  - '+.hboasia5-i.akamaihd.net'
+  - '+.hboasialive.akamaized.net'
+  - '+.hbogo.co.th'
+  - '+.hbogo.com'
+  - '+.hbogo.eu'
+  - '+.hbogoasia.com'
+  - '+.hbogoasia.hk'
+  - '+.hbogoasia.id'
+  - '+.hbogoasia.ph'
+  - '+.hbogoasia.sg'
+  - '+.hbogoasia.tw'
+  - '+.hbogoprod-vod.akamaized.net'
+  - '+.hbomaxcdn.com'
+  - '+.now-ashare.com'
+  - '+.now-tv.com'
+  - '+.now.com.hk'
+  - '+.nowe.com'
+  - '+.nowe.hk'

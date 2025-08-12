@@ -1,2 +1,3 @@
-+.5itv.tv
-+.ocnttv.com
+payload:
+  - '+.5itv.tv'
+  - '+.ocnttv.com'

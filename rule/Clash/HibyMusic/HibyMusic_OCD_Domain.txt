@@ -1,3 +1,4 @@
-+.hiby.cd
-+.hiby.com
-+.hibymusic.com
+payload:
+  - '+.hiby.cd'
+  - '+.hiby.com'
+  - '+.hibymusic.com'

@@ -1,2 +1,3 @@
-+.deezer.com
-+.dzcdn.net
+payload:
+  - '+.deezer.com'
+  - '+.dzcdn.net'

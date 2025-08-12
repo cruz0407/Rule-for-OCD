@@ -1,4 +1,5 @@
-+.95508.com
-+.cgbchina.cn
-+.cgbchina.com.cn
-+.gdb.com.cn
+payload:
+  - '+.95508.com'
+  - '+.cgbchina.cn'
+  - '+.cgbchina.com.cn'
+  - '+.gdb.com.cn'

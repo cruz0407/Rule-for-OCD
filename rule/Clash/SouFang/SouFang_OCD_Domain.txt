@@ -1,10 +1,11 @@
-+.fang.com
-+.hkproperty.com
-+.houselight.cn
-+.nree.cn
-+.soufun.com
-+.soufun.com.cn
-+.soufunimg.com
-+.txsf.com
-+.villachina.com
-+.villachina.com.cn
+payload:
+  - '+.fang.com'
+  - '+.hkproperty.com'
+  - '+.houselight.cn'
+  - '+.nree.cn'
+  - '+.soufun.com'
+  - '+.soufun.com.cn'
+  - '+.soufunimg.com'
+  - '+.txsf.com'
+  - '+.villachina.com'
+  - '+.villachina.com.cn'

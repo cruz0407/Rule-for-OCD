@@ -1,5 +1,6 @@
-weizhiyundong.list
-+.dicom365.com
-+.dycom365.com
-+.wedcm.com
-+.weiyunyingxiang.com
+payload:
+  - 'weizhiyundong.list'
+  - '+.dicom365.com'
+  - '+.dycom365.com'
+  - '+.wedcm.com'
+  - '+.weiyunyingxiang.com'

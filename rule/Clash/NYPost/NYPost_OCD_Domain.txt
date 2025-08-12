@@ -1,3 +1,4 @@
-+.nypost.com
-+.nypost.help
-+.nypostreprints.com
+payload:
+  - '+.nypost.com'
+  - '+.nypost.help'
+  - '+.nypostreprints.com'

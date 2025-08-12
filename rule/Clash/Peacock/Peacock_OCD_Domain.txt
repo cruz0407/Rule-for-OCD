@@ -1,1 +1,2 @@
-+.peacocktv.com
+payload:
+  - '+.peacocktv.com'

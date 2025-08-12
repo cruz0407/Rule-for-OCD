@@ -1,8 +1,9 @@
-+.itiger.com
-+.laohu8.com
-+.tigerbbs.cn
-+.tigerbbs.com
-+.tigerfintech.com
-+.xiaohu8.com
-+.zhijianfengyi.cn
-+.zhijianfengyi.com
+payload:
+  - '+.itiger.com'
+  - '+.laohu8.com'
+  - '+.tigerbbs.cn'
+  - '+.tigerbbs.com'
+  - '+.tigerfintech.com'
+  - '+.xiaohu8.com'
+  - '+.zhijianfengyi.cn'
+  - '+.zhijianfengyi.com'

@@ -1,1 +1,2 @@
-+.qbittorrent.org
+payload:
+  - '+.qbittorrent.org'

@@ -1,3 +1,4 @@
-+.xiami.com
-+.xiami.fm
-+.xiami.net
+payload:
+  - '+.xiami.com'
+  - '+.xiami.fm'
+  - '+.xiami.net'

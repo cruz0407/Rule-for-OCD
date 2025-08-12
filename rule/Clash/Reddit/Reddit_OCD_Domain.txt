@@ -1,8 +1,9 @@
-+.redd.it
-+.reddit.com
-+.redditmail.com
-+.redditmedia.com
-+.redditstatic.com
-+.reddituploads.com
-+.reddituploads.com.cdncf.behance.net
-+.reddituploads.com.cdncf.dropbox.com
+payload:
+  - '+.redd.it'
+  - '+.reddit.com'
+  - '+.redditmail.com'
+  - '+.redditmedia.com'
+  - '+.redditstatic.com'
+  - '+.reddituploads.com'
+  - '+.reddituploads.com.cdn-cf.behance.net'
+  - '+.reddituploads.com.cdn-cf.dropbox.com'

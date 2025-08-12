@@ -1,3 +1,4 @@
-+.dynu.com
-+.dynu.net
-+.freeddns.org
+payload:
+  - '+.dynu.com'
+  - '+.dynu.net'
+  - '+.freeddns.org'

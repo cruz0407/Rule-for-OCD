@@ -1,1 +1,2 @@
-+.imkan.tv
+payload:
+  - '+.imkan.tv'

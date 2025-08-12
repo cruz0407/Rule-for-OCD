@@ -1,4 +1,5 @@
-gog.salesmanago.com
-+.gogstatics.com
-+.gog.com
-+.gog.qtlglb.com
+payload:
+  - 'gog.salesmanago.com'
+  - '+.gog-statics.com'
+  - '+.gog.com'
+  - '+.gog.qtlglb.com'

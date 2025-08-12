@@ -1,7 +1,8 @@
-+.chinauos.com
-+.deepin.cn
-+.deepin.com
-+.deepin.io
-+.deepin.org
-+.linglong.dev
-+.uniontech.com
+payload:
+  - '+.chinauos.com'
+  - '+.deepin.cn'
+  - '+.deepin.com'
+  - '+.deepin.io'
+  - '+.deepin.org'
+  - '+.linglong.dev'
+  - '+.uniontech.com'

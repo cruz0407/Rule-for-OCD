@@ -1,3 +1,4 @@
-+.analyticsdata.io
-+.atomdata.io
-+.ironbeast.io
+payload:
+  - '+.analytics-data.io'
+  - '+.atom-data.io'
+  - '+.ironbeast.io'

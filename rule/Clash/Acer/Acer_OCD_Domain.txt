@@ -1,5 +1,6 @@
-+.acergroup.com
-+.acer.com
-+.acer.com.cn
-+.founderpc.cn
-+.founderpc.com
+payload:
+  - '+.acer-group.com'
+  - '+.acer.com'
+  - '+.acer.com.cn'
+  - '+.founderpc.cn'
+  - '+.founderpc.com'

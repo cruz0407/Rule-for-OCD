@@ -1,1 +1,2 @@
-guzzoni.apple.com
+payload:
+  - 'guzzoni.apple.com'

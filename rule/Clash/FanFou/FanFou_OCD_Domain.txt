@@ -1,4 +1,5 @@
-+.comox.cn
-+.comum.cn
-+.ifanfou.cn
-+.mlj130.cn
+payload:
+  - '+.comox.cn'
+  - '+.comum.cn'
+  - '+.ifanfou.cn'
+  - '+.mlj130.cn'

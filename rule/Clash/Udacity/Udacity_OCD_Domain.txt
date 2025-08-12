@@ -1,1 +1,2 @@
-+.udacity.com
+payload:
+  - '+.udacity.com'

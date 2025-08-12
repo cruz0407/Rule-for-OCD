@@ -1,1 +1,2 @@
-+.antutu.com
+payload:
+  - '+.antutu.com'

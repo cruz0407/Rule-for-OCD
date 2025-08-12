@@ -1,4 +1,5 @@
-+.ibangtiao.com
-+.kankanpro.cn
-+.kkstudy.cn
-+.taogepian.com
+payload:
+  - '+.ibangtiao.com'
+  - '+.kankanpro.cn'
+  - '+.kkstudy.cn'
+  - '+.taogepian.com'

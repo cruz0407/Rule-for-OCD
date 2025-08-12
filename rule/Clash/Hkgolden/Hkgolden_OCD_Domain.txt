@@ -1,2 +1,3 @@
-+.hkgolden.com
-+.hkgolden.media
+payload:
+  - '+.hkgolden.com'
+  - '+.hkgolden.media'

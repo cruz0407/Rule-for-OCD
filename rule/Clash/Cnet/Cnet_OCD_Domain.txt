@@ -1,1 +1,2 @@
-+.cnet.com
+payload:
+  - '+.cnet.com'

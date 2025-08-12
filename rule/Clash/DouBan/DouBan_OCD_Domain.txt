@@ -1,3 +1,4 @@
-+.douban.com
-+.douban.fm
-+.doubanio.com
+payload:
+  - '+.douban.com'
+  - '+.douban.fm'
+  - '+.doubanio.com'

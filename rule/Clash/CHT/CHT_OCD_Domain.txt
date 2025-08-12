@@ -1,7 +1,8 @@
-+.cht.com.tw
-+.chtf.org.tw
-+.emome.net
-+.gtlsca.nat.gov.tw
-+.hinet.net
-+.litv.tv
-+.xuite.net
+payload:
+  - '+.cht.com.tw'
+  - '+.chtf.org.tw'
+  - '+.emome.net'
+  - '+.gtlsca.nat.gov.tw'
+  - '+.hinet.net'
+  - '+.litv.tv'
+  - '+.xuite.net'

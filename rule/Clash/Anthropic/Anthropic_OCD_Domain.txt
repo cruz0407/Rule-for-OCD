@@ -1,3 +1,4 @@
-servdanthropicwebsite.bcdn.net
-+.anthropic.com
-+.claude.ai
+payload:
+  - 'servd-anthropic-website.b-cdn.net'
+  - '+.anthropic.com'
+  - '+.claude.ai'

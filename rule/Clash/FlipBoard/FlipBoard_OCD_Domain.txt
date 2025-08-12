@@ -1,2 +1,3 @@
-+.flipboard.com
-+.flipchina.cn
+payload:
+  - '+.flipboard.com'
+  - '+.flipchina.cn'

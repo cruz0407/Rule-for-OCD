@@ -1,1 +1,2 @@
-+.ali213.net
+payload:
+  - '+.ali213.net'

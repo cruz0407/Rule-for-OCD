@@ -1,4 +1,5 @@
-+.fiio.cn
-+.fiio.com
-+.fiio.com.cn
-+.fiio.net
+payload:
+  - '+.fiio.cn'
+  - '+.fiio.com'
+  - '+.fiio.com.cn'
+  - '+.fiio.net'

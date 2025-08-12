@@ -1,7 +1,8 @@
-+.343480.com
-+.baduziyuan.com
-+.comhshkdy.com
-+.czybjz.com
-+.dandanzan.com
-+.fjhps.com
-+.kuyunbo.club
+payload:
+  - '+.343480.com'
+  - '+.baduziyuan.com'
+  - '+.com-hs-hkdy.com'
+  - '+.czybjz.com'
+  - '+.dandanzan.com'
+  - '+.fjhps.com'
+  - '+.kuyunbo.club'

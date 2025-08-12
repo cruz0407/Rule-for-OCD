@@ -1,3 +1,4 @@
-+.weibo.cn
-+.weibo.com
-+.weibocdn.com
+payload:
+  - '+.weibo.cn'
+  - '+.weibo.com'
+  - '+.weibocdn.com'

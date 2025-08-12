@@ -1,3 +1,4 @@
-+.jquery.com
-+.jquerymobile.com
-+.jqueryui.com
+payload:
+  - '+.jquery.com'
+  - '+.jquerymobile.com'
+  - '+.jqueryui.com'

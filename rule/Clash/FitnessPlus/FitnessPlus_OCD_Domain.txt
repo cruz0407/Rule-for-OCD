@@ -1,2 +1,3 @@
-ampapi.fitness.apple.com
-hlssvod.itunes.apple.com
+payload:
+  - 'amp-api.fitness.apple.com'
+  - 'hls-svod.itunes.apple.com'

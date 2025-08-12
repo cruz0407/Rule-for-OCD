@@ -1,2 +1,3 @@
-+.brawlstars.com
-+.brawlstarsgame.com
+payload:
+  - '+.brawlstars.com'
+  - '+.brawlstarsgame.com'

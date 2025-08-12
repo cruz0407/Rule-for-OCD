@@ -1,4 +1,5 @@
-+.acfun.cn
-+.acfun.com
-+.acfun.tv
-+.aixifan.com
+payload:
+  - '+.acfun.cn'
+  - '+.acfun.com'
+  - '+.acfun.tv'
+  - '+.aixifan.com'

@@ -1,3 +1,4 @@
-+.identrust.co.uk
-+.identrust.com
-+.identrust.net
+payload:
+  - '+.identrust.co.uk'
+  - '+.identrust.com'
+  - '+.identrust.net'

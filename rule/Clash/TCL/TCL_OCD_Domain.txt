@@ -1,7 +1,8 @@
-+.alcatelhome.com
-+.alcatelmobile.com
-+.blackberry.com
-+.hmeng.cn
-+.hmeng.net.cn
-+.tcl.com
-+.tcl.com.cn
+payload:
+  - '+.alcatel-home.com'
+  - '+.alcatelmobile.com'
+  - '+.blackberry.com'
+  - '+.hmeng.cn'
+  - '+.hmeng.net.cn'
+  - '+.tcl.com'
+  - '+.tcl.com.cn'

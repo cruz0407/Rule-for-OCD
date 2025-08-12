@@ -1,1 +1,2 @@
-+.ads.pubmatic.com
+payload:
+  - '+.ads.pubmatic.com'

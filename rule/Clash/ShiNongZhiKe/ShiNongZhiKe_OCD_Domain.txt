@@ -1,3 +1,4 @@
-+.senseagro.cn
-+.senseagro.com
-+.senseagro.com.cn
+payload:
+  - '+.senseagro.cn'
+  - '+.senseagro.com'
+  - '+.senseagro.com.cn'

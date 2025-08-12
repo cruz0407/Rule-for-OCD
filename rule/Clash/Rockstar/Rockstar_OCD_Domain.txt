@@ -1,5 +1,6 @@
-+.gamedownloadsrockstargamescom.akamaized.net
-+.mediarockstargamescom.akamaized.net
-+.rockstargames.com
-+.rsg.sc
-+.videosrockstargamescom.akamaized.net
+payload:
+  - '+.gamedownloads-rockstargames-com.akamaized.net'
+  - '+.media-rockstargames-com.akamaized.net'
+  - '+.rockstargames.com'
+  - '+.rsg.sc'
+  - '+.videos-rockstargames-com.akamaized.net'

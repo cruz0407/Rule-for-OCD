@@ -1,4 +1,5 @@
-+.appsimg.com
-+.appvipshop.com
-+.vip.com
-+.vipstatic.com
+payload:
+  - '+.appsimg.com'
+  - '+.appvipshop.com'
+  - '+.vip.com'
+  - '+.vipstatic.com'

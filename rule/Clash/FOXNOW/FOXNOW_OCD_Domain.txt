@@ -1,3 +1,4 @@
-+.fox.com
-+.foxdcg.com
-+.uplynk.com
+payload:
+  - '+.fox.com'
+  - '+.foxdcg.com'
+  - '+.uplynk.com'

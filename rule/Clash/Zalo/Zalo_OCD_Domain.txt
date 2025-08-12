@@ -1,2 +1,3 @@
-+.zalo.me
-+.zaloapp.com
+payload:
+  - '+.zalo.me'
+  - '+.zaloapp.com'

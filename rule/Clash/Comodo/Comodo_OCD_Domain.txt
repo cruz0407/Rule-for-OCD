@@ -1,5 +1,6 @@
-+.comodo.com
-+.comodoca.com
-+.comodoca2.com
-+.comodoca3.com
-+.comodoca4.com
+payload:
+  - '+.comodo.com'
+  - '+.comodoca.com'
+  - '+.comodoca2.com'
+  - '+.comodoca3.com'
+  - '+.comodoca4.com'

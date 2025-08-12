@@ -1,7 +1,8 @@
-+.mvk.com
-+.userapi.com
-+.vkcdn.me
-+.vkcdn.net
-+.vkportal.net
-+.vk.cc
-+.vk.com
+payload:
+  - '+.mvk.com'
+  - '+.userapi.com'
+  - '+.vk-cdn.me'
+  - '+.vk-cdn.net'
+  - '+.vk-portal.net'
+  - '+.vk.cc'
+  - '+.vk.com'

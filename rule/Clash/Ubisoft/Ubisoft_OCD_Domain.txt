@@ -1,1 +1,2 @@
-uplaypcsubisoft.cdn.ubi.com
+payload:
+  - 'uplaypc-s-ubisoft.cdn.ubi.com'

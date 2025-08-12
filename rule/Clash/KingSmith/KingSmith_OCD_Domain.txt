@@ -1,4 +1,5 @@
-+.kingsmith.cn
-+.kingsmith.com.cn
-+.walkingpad.cn
-+.walkingpad.com
+payload:
+  - '+.kingsmith.cn'
+  - '+.kingsmith.com.cn'
+  - '+.walkingpad.cn'
+  - '+.walkingpad.com'

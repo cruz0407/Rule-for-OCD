@@ -1,5 +1,6 @@
-graph.facebook.com
-+.bintray.com
-+.whatsapp.biz
-+.whatsapp.com
-+.whatsapp.net
+payload:
+  - 'graph.facebook.com'
+  - '+.bintray.com'
+  - '+.whatsapp.biz'
+  - '+.whatsapp.com'
+  - '+.whatsapp.net'

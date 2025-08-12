@@ -1,2 +1,3 @@
-+.onixhiend.com
-+.shanling.com
+payload:
+  - '+.onixhiend.com'
+  - '+.shanling.com'

@@ -1,3 +1,4 @@
-+.disqus.com
-+.disquscdn.com
-+.disqusservice.com
+payload:
+  - '+.disqus.com'
+  - '+.disquscdn.com'
+  - '+.disqusservice.com'

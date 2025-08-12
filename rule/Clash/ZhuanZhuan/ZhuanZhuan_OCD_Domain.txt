@@ -1,4 +1,5 @@
-+.zhuanzhuan.cn
-+.zhuancorp.com
-+.zhuanspirit.com
-+.zhuanzhuan.com
+payload:
+  - '+.zhuan-zhuan.cn'
+  - '+.zhuancorp.com'
+  - '+.zhuanspirit.com'
+  - '+.zhuanzhuan.com'

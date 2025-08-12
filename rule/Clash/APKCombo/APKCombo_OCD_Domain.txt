@@ -1,1 +1,2 @@
-+.apkcombo.com
+payload:
+  - '+.apkcombo.com'

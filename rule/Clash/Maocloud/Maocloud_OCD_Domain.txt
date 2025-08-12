@@ -1,3 +1,4 @@
-+.maoyun.com
-+.maoyuncloud.cn
-+.maoyuncloud.com
+payload:
+  - '+.maoyun.com'
+  - '+.maoyuncloud.cn'
+  - '+.maoyuncloud.com'

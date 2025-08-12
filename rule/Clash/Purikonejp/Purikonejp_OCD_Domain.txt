@@ -1,3 +1,4 @@
-+.apipriconneredive.cygames.jp
-+.omotenashi.cygames.jp
-+.prdpriconneredive.akamaized.net
+payload:
+  - '+.api-priconne-redive.cygames.jp'
+  - '+.omotenashi.cygames.jp'
+  - '+.prd-priconne-redive.akamaized.net'

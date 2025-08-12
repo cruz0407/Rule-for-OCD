@@ -1,1 +1,2 @@
-+.electronjs.org
+payload:
+  - '+.electronjs.org'

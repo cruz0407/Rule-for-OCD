@@ -1,2 +1,3 @@
-+.cybertrust.co.jp
-+.cybertrust.ne.jp
+payload:
+  - '+.cybertrust.co.jp'
+  - '+.cybertrust.ne.jp'

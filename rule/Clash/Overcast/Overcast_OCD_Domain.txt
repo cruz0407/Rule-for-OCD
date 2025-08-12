@@ -1,1 +1,2 @@
-+.overcast.fm
+payload:
+  - '+.overcast.fm'

@@ -1,4 +1,5 @@
-+.packagecontrol.io
-+.sublimehq.com
-+.sublimemerge.com
-+.sublimetext.com
+payload:
+  - '+.packagecontrol.io'
+  - '+.sublimehq.com'
+  - '+.sublimemerge.com'
+  - '+.sublimetext.com'

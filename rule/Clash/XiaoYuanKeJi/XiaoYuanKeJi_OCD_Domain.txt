@@ -1,5 +1,6 @@
-+.10010mx.com
-+.5gimos.com
-+.bizport.cn
-+.mfexcel.com
-+.microfountain.com
+payload:
+  - '+.10010mx.com'
+  - '+.5gimos.com'
+  - '+.bizport.cn'
+  - '+.mfexcel.com'
+  - '+.microfountain.com'

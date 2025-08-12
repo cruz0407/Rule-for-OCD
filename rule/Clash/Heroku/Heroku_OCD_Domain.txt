@@ -1,12 +1,13 @@
-+.codei.sh
-+.codeish.co
-+.codeish.io
-+.herokuapp.com
-+.herokucharge.com
-+.heroku.co
-+.heroku.com
-+.heroku.me
-+.herokuapp.com
-+.herokucdn.com
-+.herokucharge.com
-+.herokussl.com
+payload:
+  - '+.codei.sh'
+  - '+.codeish.co'
+  - '+.codeish.io'
+  - '+.heroku-app.com'
+  - '+.heroku-charge.com'
+  - '+.heroku.co'
+  - '+.heroku.com'
+  - '+.heroku.me'
+  - '+.herokuapp.com'
+  - '+.herokucdn.com'
+  - '+.herokucharge.com'
+  - '+.herokussl.com'

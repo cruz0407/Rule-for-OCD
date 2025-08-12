@@ -1,2 +1,3 @@
-+.picjs.xyz
-+.vikacg.com
+payload:
+  - '+.picjs.xyz'
+  - '+.vikacg.com'

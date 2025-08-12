@@ -1,3 +1,4 @@
-+.esm.run
-+.jsdelivr.com
-+.jsdelivr.net
+payload:
+  - '+.esm.run'
+  - '+.jsdelivr.com'
+  - '+.jsdelivr.net'

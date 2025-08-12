@@ -1,3 +1,4 @@
-+.tmblr.co
-+.tumblr.co
-+.tumblr.com
+payload:
+  - '+.tmblr.co'
+  - '+.tumblr.co'
+  - '+.tumblr.com'

@@ -1,1 +1,2 @@
-wetype.weixin.qq.com
+payload:
+  - 'wetype.weixin.qq.com'

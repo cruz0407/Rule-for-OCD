@@ -1,3 +1,4 @@
-+.slideshare.com
-+.slideshare.net
-+.slidesharecdn.com
+payload:
+  - '+.slideshare.com'
+  - '+.slideshare.net'
+  - '+.slidesharecdn.com'

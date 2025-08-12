@@ -1,2 +1,3 @@
-+.actalis.com
-+.actalis.it
+payload:
+  - '+.actalis.com'
+  - '+.actalis.it'

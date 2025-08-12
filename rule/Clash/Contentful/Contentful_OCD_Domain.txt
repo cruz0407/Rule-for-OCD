@@ -1,2 +1,3 @@
-+.contentful.com
-+.ctfassets.net
+payload:
+  - '+.contentful.com'
+  - '+.ctfassets.net'

@@ -1,2 +1,3 @@
-+.duolingo.cn
-+.duolingo.com
+payload:
+  - '+.duolingo.cn'
+  - '+.duolingo.com'

@@ -1,2 +1,3 @@
-+.dangdang.com
-+.ddimg.cn
+payload:
+  - '+.dangdang.com'
+  - '+.ddimg.cn'

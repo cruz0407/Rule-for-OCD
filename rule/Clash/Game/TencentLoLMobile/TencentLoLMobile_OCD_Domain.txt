@@ -1,3 +1,4 @@
-+.riotcdn.net
-+.riotgames.com
-+.wr.pvp.net
+payload:
+  - '+.riotcdn.net'
+  - '+.riotgames.com'
+  - '+.wr.pvp.net'

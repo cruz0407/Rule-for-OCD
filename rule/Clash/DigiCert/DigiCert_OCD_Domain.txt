@@ -1,14 +1,15 @@
-+.dcocsp.cn
-+.digicertcn.com
-+.digicertvalidation.com
-+.digicert.cn
-+.digicert.com
-+.digitalcertvalidation.com
-+.freessl.com
-+.geotrust.com
-+.publictrust.com
-+.quovadisglobal.com
-+.rapidssl.com
-+.thawte.com
-+.thawte.de
-+.thawte.fr
+payload:
+  - '+.dcocsp.cn'
+  - '+.digicert-cn.com'
+  - '+.digicert-validation.com'
+  - '+.digicert.cn'
+  - '+.digicert.com'
+  - '+.digitalcertvalidation.com'
+  - '+.freessl.com'
+  - '+.geotrust.com'
+  - '+.public-trust.com'
+  - '+.quovadisglobal.com'
+  - '+.rapidssl.com'
+  - '+.thawte.com'
+  - '+.thawte.de'
+  - '+.thawte.fr'

@@ -1,3 +1,4 @@
-+.cdninstagram.com
-+.instagr.am
-+.instagram.com
+payload:
+  - '+.cdninstagram.com'
+  - '+.instagr.am'
+  - '+.instagram.com'

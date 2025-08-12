@@ -1,4 +1,5 @@
-+.fengkongcloud.com
-+.xhscdn.com
-+.xhscdn.net
-+.xiaohongshu.com
+payload:
+  - '+.fengkongcloud.com'
+  - '+.xhscdn.com'
+  - '+.xhscdn.net'
+  - '+.xiaohongshu.com'

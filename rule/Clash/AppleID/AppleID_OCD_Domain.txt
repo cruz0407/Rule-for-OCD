@@ -1,4 +1,5 @@
-appleid.apple.com
-appleid.cdnapple.com
-gsa.apple.com
-idmsa.apple.com
+payload:
+  - 'appleid.apple.com'
+  - 'appleid.cdn-apple.com'
+  - 'gsa.apple.com'
+  - 'idmsa.apple.com'

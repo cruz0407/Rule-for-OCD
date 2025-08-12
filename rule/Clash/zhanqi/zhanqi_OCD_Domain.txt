@@ -1,1 +1,2 @@
-+.zhanqi.tv
+payload:
+  - '+.zhanqi.tv'

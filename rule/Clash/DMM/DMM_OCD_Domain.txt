@@ -1,18 +1,19 @@
-+.akabeesoft2.com
-+.akabeesoft3.com
-+.akatsukiworks.com
-+.alicesoft.com
-+.apip.videomarket.jp
-+.cosmiccute.com
-+.ddo.jp
-+.dmmextension.com
-+.dmm.co.jp
-+.dmm.com
-+.dmm.hk
-+.dmmapis.com
-+.dmmrex.com
-+.hibikisite.com
-+.minori.ph
-+.navismithapiscdn.com
-+.tenco.cc
-+.wheelsoft.com
+payload:
+  - '+.akabeesoft2.com'
+  - '+.akabeesoft3.com'
+  - '+.akatsukiworks.com'
+  - '+.alicesoft.com'
+  - '+.api-p.videomarket.jp'
+  - '+.cosmiccute.com'
+  - '+.ddo.jp'
+  - '+.dmm-extension.com'
+  - '+.dmm.co.jp'
+  - '+.dmm.com'
+  - '+.dmm.hk'
+  - '+.dmmapis.com'
+  - '+.dmmrex.com'
+  - '+.hibiki-site.com'
+  - '+.minori.ph'
+  - '+.navismithapis-cdn.com'
+  - '+.tenco.cc'
+  - '+.wheel-soft.com'

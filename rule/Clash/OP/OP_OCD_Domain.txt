@@ -1,2 +1,3 @@
-+.op.gg
-+.opggstatic.akamaized.net
+payload:
+  - '+.op.gg'
+  - '+.opgg-static.akamaized.net'

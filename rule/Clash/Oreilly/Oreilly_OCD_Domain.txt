@@ -1,6 +1,7 @@
-+.oreil.ly
-+.oreilly.com
-+.oreilly.com.cn
-+.oreilly.review
-+.oreillystatic.com
-+.orl.ly
+payload:
+  - '+.oreil.ly'
+  - '+.oreilly.com'
+  - '+.oreilly.com.cn'
+  - '+.oreilly.review'
+  - '+.oreillystatic.com'
+  - '+.orl.ly'

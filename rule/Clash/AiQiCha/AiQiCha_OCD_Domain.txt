@@ -1,1 +1,2 @@
-+.aiqicha.baidu.com
+payload:
+  - '+.aiqicha.baidu.com'

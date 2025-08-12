@@ -1,1 +1,2 @@
-+.data.flurry.com
+payload:
+  - '+.data.flurry.com'

@@ -1,1 +1,2 @@
-lens.l.google.com
+payload:
+  - 'lens.l.google.com'

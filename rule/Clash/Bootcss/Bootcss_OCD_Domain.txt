@@ -1,3 +1,4 @@
-+.bootcdn.cn
-+.bootcss.com
-+.phpcomposer.com
+payload:
+  - '+.bootcdn.cn'
+  - '+.bootcss.com'
+  - '+.phpcomposer.com'

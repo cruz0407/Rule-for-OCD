@@ -1,1 +1,2 @@
-+.3type.cn
+payload:
+  - '+.3type.cn'

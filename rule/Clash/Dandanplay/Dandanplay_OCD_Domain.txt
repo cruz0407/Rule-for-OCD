@@ -1,3 +1,4 @@
-+.acplay.net
-+.dandanplay.com
-+.dandanplayer.com
+payload:
+  - '+.acplay.net'
+  - '+.dandanplay.com'
+  - '+.dandanplayer.com'

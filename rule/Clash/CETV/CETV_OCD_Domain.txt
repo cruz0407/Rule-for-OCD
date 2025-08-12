@@ -1,3 +1,4 @@
-+.centv.cn
-+.centv.net.cn
-+.cetv.cn
+payload:
+  - '+.centv.cn'
+  - '+.centv.net.cn'
+  - '+.cetv.cn'
