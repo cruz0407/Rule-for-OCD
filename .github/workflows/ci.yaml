@@ -75,6 +75,10 @@ jobs:
 
       - name: Commit and Push Changes
         run: |
+          echo "=== git status ==="
+          git status
+          echo "=== Untracked files ==="
+          git ls-files --others --exclude-standard
           if [ -n "$(git status --porcelain)" ]; then
             git add --all
             git commit -m "${{ env.BUILDTIME }} for OCD"
