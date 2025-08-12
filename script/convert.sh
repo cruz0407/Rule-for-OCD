@@ -40,7 +40,7 @@ find . -name "*.list" | while read -r file; do
     download_and_check "$OUTPUT_FILE_IP_YAML" "3d6eaeec428ed84741b4045f4b85eee3" "http://127.0.0.1:25500/getruleset?type=4&url=$RAW_URL_BASE64" "$OUTPUT_FILE_IP_TEXT"
 
 done
-
+: <<'COMMENT'
 # .txt to .mrs
 find . -name "*_OCD_*.txt" | while read -r file; do
     first_line=$(head -n 1 "$file")
@@ -64,6 +64,30 @@ find . -name "*_OCD_*.txt" | while read -r file; do
 
     output_file="$file_dir/$filename.mrs"
     /usr/bin/mihomo convert-ruleset "$param" text "$file" "$output_file"
+    if [[ $? -eq 0 ]]; then
+        echo "文件 $file 转换成功为 $output_file"
+    else
+        echo "文件 $file 转换失败"
+    fi
+done
+COMMENT
+
+# .yaml to .mrs
+find . -name "*_OCD_*.yaml" | while read -r file; do
+    file_dir=$(dirname "$file")
+    filename=$(basename "$file" .yaml)
+
+    if [[ "$filename" == *_OCD_Domain* ]]; then
+        param="domain"
+    elif [[ "$filename" == *_OCD_IP* ]]; then
+        param="ipcidr"
+    else
+        echo "未识别的文件类型: $file"
+        continue
+    fi
+
+    output_file="$file_dir/$filename.mrs"
+    /usr/bin/mihomo convert-ruleset "$param" yaml "$file" "$output_file"
     if [[ $? -eq 0 ]]; then
         echo "文件 $file 转换成功为 $output_file"
     else
