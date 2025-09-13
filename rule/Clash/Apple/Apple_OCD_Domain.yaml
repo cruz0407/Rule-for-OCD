@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'appldnld.apple.com.edgesuite.net'
   - 'apple-events.akamaized.net'
   - 'appleworldwidedeveloper.hb-api.omtrdc.net'

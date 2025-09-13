@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.aicdn.com'
   - '+.aicdn2.com'
   - '+.aicdn3.com'

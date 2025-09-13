@@ -1,3 +1,4 @@
-payload:
+version: 1
+rules:
   - '+.cabletv.com.hk'
   - '+.i-cable.com'

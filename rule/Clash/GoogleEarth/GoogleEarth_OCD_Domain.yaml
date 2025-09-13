@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.earth-pa.clients6.google.com'
   - '+.earth.google.com'
   - '+.kh.google.com'

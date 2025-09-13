@@ -1,3 +1,4 @@
-payload:
+version: 1
+rules:
   - '+.naver.com'
   - '+.smartmediarep.com'

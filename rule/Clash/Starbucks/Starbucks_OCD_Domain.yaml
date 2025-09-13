@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.sbux.com.my'
   - '+.sbuxcard.com'
   - '+.starbucks-stars.com'

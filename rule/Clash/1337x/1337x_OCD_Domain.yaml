@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.1337x.gd'
   - '+.1337x.is'
   - '+.1337x.st'

@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.meipai.com'
   - '+.meitu.com'
   - '+.meitudata.com'

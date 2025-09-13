@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.pinimg.com'
   - '+.pinterest.at'
   - '+.pinterest.ca'

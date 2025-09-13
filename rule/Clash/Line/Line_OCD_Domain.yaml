@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.lin.ee'
   - '+.line-apps.com'
   - '+.line-cdn.net'

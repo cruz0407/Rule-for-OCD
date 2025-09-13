@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.i-joox.com'
   - '+.joox.com'
   - '+.sanook.com'

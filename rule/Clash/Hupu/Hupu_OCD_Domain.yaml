@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.afpchinesesports.com'
   - '+.goalhi.cn'
   - '+.hellof1.com'

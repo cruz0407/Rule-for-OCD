@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'wmff.warnermediacdn.com'
   - '+.cinemax.com'
   - '+.discomax.com'

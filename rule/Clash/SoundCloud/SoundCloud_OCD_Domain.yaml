@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.p-cdn.us'
   - '+.sndcdn.com'
   - '+.soundcloud.com'

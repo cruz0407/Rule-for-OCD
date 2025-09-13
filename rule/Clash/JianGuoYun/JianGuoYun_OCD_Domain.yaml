@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.gdfgq.club'
   - '+.jianguopuzi.com'
   - '+.jianguoyun.com'

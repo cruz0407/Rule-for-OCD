@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.appdomain.cloud'
   - '+.bluemix.com'
   - '+.bluemix.net'

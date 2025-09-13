@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.97973.com'
   - '+.97973.com.cn'
   - '+.carrydj.com'

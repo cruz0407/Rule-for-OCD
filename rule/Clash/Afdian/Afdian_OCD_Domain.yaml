@@ -1,3 +1,4 @@
-payload:
+version: 1
+rules:
   - '+.afdian.net'
   - '+.afdiancdn.com'

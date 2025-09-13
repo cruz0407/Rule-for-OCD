@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.cht.com.tw'
   - '+.chtf.org.tw'
   - '+.emome.net'

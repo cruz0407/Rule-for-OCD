@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.happyon.jp'
   - '+.hjholdings.jp'
   - '+.hulu.jp'

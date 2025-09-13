@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.anaconda.cloud'
   - '+.anaconda.com'
   - '+.anaconda.org'

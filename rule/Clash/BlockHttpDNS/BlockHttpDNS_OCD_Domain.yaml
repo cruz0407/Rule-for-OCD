@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'dns.jd.com'
   - 'dns.weibo.cn'
   - 'dns.weixin.qq.com'

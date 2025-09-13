@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.okex.com'
   - '+.oklink.com'
   - '+.okx.com'

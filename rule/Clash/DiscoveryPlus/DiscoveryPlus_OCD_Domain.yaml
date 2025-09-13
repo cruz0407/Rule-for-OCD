@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'discovery-us.conax.cloud'
   - 'dplus-northamerica-cloudfront-gcs.prod-vod.h264.io'
   - 'dplus-northamerica.media-edge.prod-vod.h264.io'

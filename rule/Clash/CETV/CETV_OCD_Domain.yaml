@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.centv.cn'
   - '+.centv.net.cn'
   - '+.cetv.cn'

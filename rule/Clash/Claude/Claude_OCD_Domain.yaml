@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'cdn.usefathom.com'
   - '+.anthropic.com'
   - '+.claude.ai'

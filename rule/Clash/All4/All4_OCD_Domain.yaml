@@ -1,3 +1,4 @@
-payload:
+version: 1
+rules:
   - '+.c4assets.com'
   - '+.channel4.com'

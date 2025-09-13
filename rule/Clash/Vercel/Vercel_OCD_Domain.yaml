@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.err.sh'
   - '+.hyper.is'
   - '+.nextjs.org'

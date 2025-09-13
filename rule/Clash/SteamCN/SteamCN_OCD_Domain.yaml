@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'csgo.wmsj.cn'
   - 'dl.steam.clngaa.com'
   - 'dl.steam.ksyna.com'

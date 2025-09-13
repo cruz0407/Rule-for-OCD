@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.atlab.ai'
   - '+.cdnhub.net'
   - '+.cloudappl.com'

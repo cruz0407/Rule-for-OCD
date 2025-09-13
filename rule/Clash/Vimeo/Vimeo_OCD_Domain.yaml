@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.livestream.com'
   - '+.vhx.tv'
   - '+.vhxqa1.com'

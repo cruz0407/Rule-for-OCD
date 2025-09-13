@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.analytics-data.io'
   - '+.atom-data.io'
   - '+.ironbeast.io'

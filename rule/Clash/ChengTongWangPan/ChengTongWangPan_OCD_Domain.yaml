@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.ctfile.com'
   - '+.ctfile.net'
   - '+.n802.com'

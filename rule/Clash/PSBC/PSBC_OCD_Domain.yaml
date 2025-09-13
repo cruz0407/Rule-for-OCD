@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.95580.net'
   - '+.psbc.com'
   - '+.psbcoa.com.cn'

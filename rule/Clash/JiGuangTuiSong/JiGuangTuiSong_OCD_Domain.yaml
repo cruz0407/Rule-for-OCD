@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.42r.cn'
   - '+.5566ua.com'
   - '+.aurorapush.cn'

@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.adidas.at'
   - '+.adidas.be'
   - '+.adidas.ch'

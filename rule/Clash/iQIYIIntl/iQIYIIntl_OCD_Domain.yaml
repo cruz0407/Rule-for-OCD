@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'cache.video.iqiyi.com'
   - '+.inter.iqiyi.com'
   - '+.intl-rcd.iqiyi.com'

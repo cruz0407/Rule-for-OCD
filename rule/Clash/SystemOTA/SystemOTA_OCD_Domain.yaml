@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'appldnld-cdn.apple.com.akadns.net'
   - 'appldnld-cdn.origin-apple.com.akadns.net'
   - 'appldnld.apple.com.mwcname.com'

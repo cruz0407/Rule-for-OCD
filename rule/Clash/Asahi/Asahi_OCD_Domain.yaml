@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'asahishimbun.sc.omtrdc.net'
   - '+.aiasahi.jp'
   - '+.asagaku.com'

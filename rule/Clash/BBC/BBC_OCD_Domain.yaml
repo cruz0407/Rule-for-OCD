@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'aod-dash-uk-live.akamaized.net'
   - 'aod-hls-uk-live.akamaized.net'
   - 'as-dash-uk-live.akamaized.net'

@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.anm.co.uk'
   - '+.dailym.ai'
   - '+.dailymail.co.uk'

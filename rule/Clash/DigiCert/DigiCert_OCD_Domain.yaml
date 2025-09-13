@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.dcocsp.cn'
   - '+.digicert-cn.com'
   - '+.digicert-validation.com'

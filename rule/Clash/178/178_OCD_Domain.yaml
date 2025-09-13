@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.178.com'
   - '+.178.net'
   - '+.766.com'

@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.95516.com'
   - '+.95516.net'
   - '+.airepay.net'

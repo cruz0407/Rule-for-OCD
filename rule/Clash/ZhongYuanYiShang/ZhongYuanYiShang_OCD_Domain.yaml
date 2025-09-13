@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.bjesound.com'
   - '+.earlymen.com.cn'
   - '+.esound.cn'

@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'emby.enjoyit.eu.org'
   - 'emby.lcloud.wiki'
   - 'notnetflix.cos.cat'

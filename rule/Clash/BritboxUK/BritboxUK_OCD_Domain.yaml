@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'itvpnp.live.ott.irdeto.com'
   - 'itvpnp.stage.ott.irdeto.com'
   - '+.bb-static.com'

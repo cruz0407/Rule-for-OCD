@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.identrust.co.uk'
   - '+.identrust.com'
   - '+.identrust.net'

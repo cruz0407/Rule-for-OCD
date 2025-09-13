@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.36dianping.com'
   - '+.36kr.com'
   - '+.36krcdn.com'

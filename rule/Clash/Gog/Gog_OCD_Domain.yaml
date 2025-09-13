@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'gog.salesmanago.com'
   - '+.gog-statics.com'
   - '+.gog.com'

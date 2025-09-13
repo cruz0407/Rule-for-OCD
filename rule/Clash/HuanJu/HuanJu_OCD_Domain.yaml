@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.5253.com'
   - '+.blogchina.org'
   - '+.c19ce66ff87253fdda68740edcb7ce3b.v.smtcdns.net'

@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.bintray.com'
   - '+.jfrog.com'
   - '+.jfrog.org'

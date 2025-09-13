@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.blogdns.org'
   - '+.dyn.com'
   - '+.dyndns-ip.com'

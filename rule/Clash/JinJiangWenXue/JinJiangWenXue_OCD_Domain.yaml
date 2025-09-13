@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.chaba123.com'
   - '+.jjwxc.cn'
   - '+.jjwxc.com'

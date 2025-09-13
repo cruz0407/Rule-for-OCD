@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.100beatscheap.com'
   - '+.1monsterbeatsbydreus.com'
   - '+.2013beatsbydrdreonline.com'

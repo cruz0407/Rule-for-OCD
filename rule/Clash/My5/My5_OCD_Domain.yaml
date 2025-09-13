@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'd349g9zuie06uo.cloudfront.net'
   - '+.channel5.com'
   - '+.my5.tv'

@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.bkrent.cn'
   - '+.g1d.net'
   - '+.iptv.com.cn'

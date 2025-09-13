@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.account-paypal.info'
   - '+.account-paypal.net'
   - '+.account-paypal.org'

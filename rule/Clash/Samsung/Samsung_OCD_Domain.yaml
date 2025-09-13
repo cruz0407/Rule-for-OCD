@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.anrdoezrs.net'
   - '+.galaxyappstore.com'
   - '+.galaxymobile.jp'

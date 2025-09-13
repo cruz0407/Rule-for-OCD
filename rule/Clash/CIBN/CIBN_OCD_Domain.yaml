@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.apecn.com'
   - '+.china-ceec-cooperation.com'
   - '+.china.com'

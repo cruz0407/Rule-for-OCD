@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.comodo.com'
   - '+.comodoca.com'
   - '+.comodoca2.com'

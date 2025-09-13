@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'graph.facebook.com'
   - '+.bintray.com'
   - '+.whatsapp.biz'

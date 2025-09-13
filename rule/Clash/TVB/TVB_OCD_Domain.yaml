@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'bcbolt446c5271-a.akamaihd.net'
   - 'edge.api.brightcove.com'
   - 'tvbtracking.azurewebsites.net'

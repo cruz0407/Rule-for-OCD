@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.cdn-ali.content.steamchina.com'
   - '+.cdn-qc.content.steamchina.com'
   - '+.cdn-ws.content.steamchina.com'

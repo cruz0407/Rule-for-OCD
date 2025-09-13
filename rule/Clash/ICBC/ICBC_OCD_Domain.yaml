@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.95588.com'
   - '+.95588.com.cn'
   - '+.dccnet.com.cn'

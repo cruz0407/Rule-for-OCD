@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.mega.co.nz'
   - '+.mega.io'
   - '+.mega.nz'

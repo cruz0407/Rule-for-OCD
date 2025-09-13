@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.delvenetworks.com'
   - '+.limelight.com'
   - '+.lldns.net'

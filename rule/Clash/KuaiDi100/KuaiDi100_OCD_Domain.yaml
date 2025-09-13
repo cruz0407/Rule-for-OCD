@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.baidiapp.com'
   - '+.baidinet.com'
   - '+.ckd.im'

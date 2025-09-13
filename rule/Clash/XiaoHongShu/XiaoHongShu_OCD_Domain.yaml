@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.fengkongcloud.com'
   - '+.xhscdn.com'
   - '+.xhscdn.net'

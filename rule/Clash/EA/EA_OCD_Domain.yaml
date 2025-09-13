@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'eaasserts-a.akamaihd.net'
   - 'originasserts.akamaized.net'
   - '+.anthemgame.com'

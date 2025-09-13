@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.158c.com'
   - '+.ali213.net'
   - '+.fengyx.com'

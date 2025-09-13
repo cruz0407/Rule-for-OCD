@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.cptn.tv'
   - '+.sava.sh.cn'
   - '+.smg.cn'

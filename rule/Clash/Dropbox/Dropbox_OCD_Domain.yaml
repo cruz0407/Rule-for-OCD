@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.db.tt'
   - '+.dropbox-dns.com'
   - '+.dropbox.com'

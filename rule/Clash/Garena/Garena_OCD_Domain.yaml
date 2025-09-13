@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.avatargarenanow-a.akamaihd.net'
   - '+.cdngarenanow-a.akamaihd.net'
   - '+.dlmobilegarena-a.akamaihd.net'

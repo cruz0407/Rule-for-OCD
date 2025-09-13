@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.1drv.com'
   - '+.livefilestore.com'
   - '+.oneclient.sfx.ms'

@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.ibangtiao.com'
   - '+.kankanpro.cn'
   - '+.kkstudy.cn'

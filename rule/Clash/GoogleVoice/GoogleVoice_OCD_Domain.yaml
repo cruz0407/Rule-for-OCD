@@ -1,2 +1,3 @@
-payload:
+version: 1
+rules:
   - 'lens.l.google.com'

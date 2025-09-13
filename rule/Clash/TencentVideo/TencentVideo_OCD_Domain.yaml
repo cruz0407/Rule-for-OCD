@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '00713915daab0be43def5c338c02c80b.dlied1.cdntips.net'
   - '17caa75e77d31e1f5a7841e0b3374569.dlied1.cdntips.net'
   - 'apd-pcdnvodstat.teg.tencent-cloud.net'

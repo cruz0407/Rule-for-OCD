@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.acas.ac.cn'
   - '+.agklab.cn'
   - '+.berlin8.org'

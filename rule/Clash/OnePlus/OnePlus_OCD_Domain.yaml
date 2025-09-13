@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.h2os.com'
   - '+.oneplus.cn'
   - '+.oneplus.com'

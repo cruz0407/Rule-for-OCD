@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'account.synology.com'
   - 'global.quickconnect.cn'
   - 'sns.synology.com'

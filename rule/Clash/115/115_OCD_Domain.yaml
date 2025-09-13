@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'fhnfile.oss-cn-shenzhen.aliyuncs.com'
   - '+.115.com'
   - '+.115cdn.com'

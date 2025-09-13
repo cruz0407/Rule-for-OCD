@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'bahamut.akamaized.net'
   - '+.bahamut.com.tw'
   - '+.digicert.com'

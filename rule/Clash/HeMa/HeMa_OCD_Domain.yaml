@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.freshhema.com'
   - '+.hemaapi.cn'
   - '+.hemamax.com'

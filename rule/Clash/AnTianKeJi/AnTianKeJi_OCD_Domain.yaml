@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.antiy.cn'
   - '+.antiy.com'
   - '+.antiy.net.cn'

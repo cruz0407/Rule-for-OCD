@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.afdvr.cc'
   - '+.aiwei365.com.cn'
   - '+.aiwei365.net.cn'

@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '00-gov.cn'
   - '0024aadd.com'
   - '0026645142c89aeb1.com'

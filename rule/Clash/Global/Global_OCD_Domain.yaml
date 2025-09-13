@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '1password.drift.click'
   - 'adobeereg.com'
   - 'angle.com.tw'

@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.51ckjr.com'
   - '+.ckjr001.cn'
   - '+.ckjr001.com'

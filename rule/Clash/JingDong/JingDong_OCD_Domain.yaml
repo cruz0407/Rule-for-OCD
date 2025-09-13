@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.1huizhan.com'
   - '+.3.cn'
   - '+.300hu.com'

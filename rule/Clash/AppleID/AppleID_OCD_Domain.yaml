@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'appleid.apple.com'
   - 'appleid.cdn-apple.com'
   - 'gsa.apple.com'

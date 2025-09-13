@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.cnn.com'
   - '+.cnn.io'
   - '+.cnn.it'

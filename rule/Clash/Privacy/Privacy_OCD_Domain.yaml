@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'hmma.baidu.com'
   - 'ios-pclog.i4.cn'
   - 'js.users.51.la'

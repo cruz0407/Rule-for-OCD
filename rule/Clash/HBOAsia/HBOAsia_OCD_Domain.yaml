@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '44wilhpljf.execute-api.ap-southeast-1.amazonaws.com'
   - 'bcbolthboa-a.akamaihd.net'
   - 'cf-images.ap-southeast-1.prod.boltdns.net'

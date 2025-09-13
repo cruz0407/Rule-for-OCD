@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.10086.cn'
   - '+.10086kuaixiu.com'
   - '+.12530.com'

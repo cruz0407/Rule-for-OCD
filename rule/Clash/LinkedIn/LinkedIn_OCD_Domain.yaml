@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'e122475.dscg.akamaiedge.net'
   - 'licdn.cn.cdn20.com'
   - 'linkedin.sc.omtrdc.net'

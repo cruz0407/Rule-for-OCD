@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'e13252.dscg.akamaiedge.net'
   - 'h-netflix.online-metrix.net'
   - 'netflix.com.edgesuite.net'

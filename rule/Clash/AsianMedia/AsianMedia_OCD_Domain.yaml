@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'akmcdnoversea-tw.inter.iqiyi.com'
   - 'akmcdnoversea-tw.inter.ptqy.gitv.tv'
   - 'api.biliapi.com'

@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.kalhlspd-a.akamaihd.net'
   - '+.m-content-viki.s.llnwi.net'
   - '+.twemoji.maxcdn.com'

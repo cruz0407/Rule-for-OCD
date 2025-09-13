@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'asia.battle.net'
   - 'europe.battle.net'
   - 'useast.battle.net'

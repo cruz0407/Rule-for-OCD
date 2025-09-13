@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.01058511989.com'
   - '+.10000.gd.cn'
   - '+.189.cn'

@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.baijii.com'
   - '+.jianshu.com'
   - '+.jianshu.io'

@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.atom.io'
   - '+.dependabot.com'
   - '+.ghcr.io'

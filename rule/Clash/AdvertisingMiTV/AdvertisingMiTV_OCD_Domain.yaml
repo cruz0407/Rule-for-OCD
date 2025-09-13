@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '519332da.rtc.youme.im'
   - '86file.megajoy.com'
   - '86get.joy.cn'

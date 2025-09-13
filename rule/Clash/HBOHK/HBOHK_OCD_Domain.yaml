@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'wmff.warnermediacdn.com'
   - '+.hboasia.com'
   - '+.hboasia1-i.akamaihd.net'

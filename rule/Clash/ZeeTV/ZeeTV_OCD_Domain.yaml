@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.z5.app'
   - '+.z5.com'
   - '+.zee5.com'

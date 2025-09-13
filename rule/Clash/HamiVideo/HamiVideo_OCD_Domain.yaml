@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'hls-hichannel.cdn.hinet.net'
   - '+.hamivideo.hinet.net'
   - '+.ott.hinet.net'

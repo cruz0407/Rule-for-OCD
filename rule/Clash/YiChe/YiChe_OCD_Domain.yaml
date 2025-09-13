@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.bitauto.com'
   - '+.bitautoimg.com'
   - '+.cheyisou.com'

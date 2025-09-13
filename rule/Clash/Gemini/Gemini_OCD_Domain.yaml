@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'ai.google.dev'
   - 'alkalimakersuite-pa.clients6.google.com'
   - 'makersuite.google.com'

@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.a2z.org.cn'
   - '+.aboutamazon.cn'
   - '+.alexafund.cn'

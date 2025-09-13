@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'aod-ssl.itunes.apple.com'
   - 'aod.itunes.apple.com'
   - 'audio-ssl.itunes.apple.com'

@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'cwtv-amd-akamai.akamaized.net'
   - 'edge.cwtv-vod-ext.top.comcast.net'
   - '+.cwseed.com'

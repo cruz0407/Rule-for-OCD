@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.haiwaikan.com'
   - '+.iole.tv'
   - '+.olehd.com'

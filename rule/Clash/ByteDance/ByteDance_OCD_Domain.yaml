@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.2333333333333.com'
   - '+.365yg.com'
   - '+.activity-zhendingtech.com'

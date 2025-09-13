@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.sc-cdn.net'
   - '+.snap-dev.net'
   - '+.snap.com'

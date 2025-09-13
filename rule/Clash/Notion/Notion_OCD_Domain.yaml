@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'http-inputs-notion.splunkcloud.com'
   - '+.notion-static.com'
   - '+.notion.com'

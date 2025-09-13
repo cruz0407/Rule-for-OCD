@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.95599.cn'
   - '+.abchina.com'
   - '+.bscabank.com'

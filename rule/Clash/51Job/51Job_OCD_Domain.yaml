@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.51hr.com'
   - '+.51ideal.com'
   - '+.51jingying.com'

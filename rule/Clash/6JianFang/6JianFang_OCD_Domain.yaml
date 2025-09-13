@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.6.cn'
   - '+.6.com.cn'
   - '+.6imgcss.cn'

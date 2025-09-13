@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.cebbank.com'
   - '+.ceblease.com'
   - '+.eb-ind.com'

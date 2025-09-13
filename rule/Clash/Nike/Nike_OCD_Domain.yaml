@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.nike.com'
   - '+.nike.com.br'
   - '+.nike.com.hk'

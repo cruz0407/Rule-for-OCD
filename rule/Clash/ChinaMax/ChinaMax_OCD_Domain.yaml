@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'cpro.baidustatic.com'
   - 'analytics.strava.com'
   - 'blzddist1-a.akamaihd.net'

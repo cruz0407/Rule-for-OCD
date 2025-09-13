@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - 'cbsi.live.ott.irdeto.com'
   - 'cbsplaylistserver.aws.syncbak.com'
   - 'cbsservice.aws.syncbak.com'

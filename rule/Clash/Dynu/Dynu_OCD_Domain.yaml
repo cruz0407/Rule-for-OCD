@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.dynu.com'
   - '+.dynu.net'
   - '+.freeddns.org'

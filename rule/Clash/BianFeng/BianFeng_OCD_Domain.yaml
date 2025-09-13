@@ -1,4 +1,5 @@
-payload:
+version: 1
+rules:
   - '+.17et.com'
   - '+.2133.com'
   - '+.2133bbs.com'

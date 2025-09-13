@@ -1,2 +1,3 @@
-payload:
+version: 1
+rules:
   - 'wetype.weixin.qq.com'
