@@ -101,8 +101,14 @@ if ! cd "$LOCAL_DIR"; then
   exit 1
 fi
 
-# 等待本地服务（尝试性，避免 race）
-wait_for_services || log "（继续执行，注意可能会有下载失败）"
+# 控制是否等待本地服务：可通过环境变量 WAIT_FOR_SERVICES=false 跳过（CI 场景）
+WAIT_FOR_SERVICES="${WAIT_FOR_SERVICES:-true}"
+if [[ "${WAIT_FOR_SERVICES,,}" == "true" ]]; then
+  log "WAIT_FOR_SERVICES=true，执行本地服务检测（最多等待约 30s）"
+  wait_for_services || log "（继续执行，注意可能会有下载失败）"
+else
+  log "WAIT_FOR_SERVICES=false，已跳过本地服务检测（假设 workflow/外部已处理等待）"
+fi
 
 # list -> yaml/txt
 log "阶段：.list -> .yaml/.txt（下载并判定 payload 作为合法 YAML）"
