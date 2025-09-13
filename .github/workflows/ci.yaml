@@ -41,48 +41,69 @@ jobs:
           cp -f ./backup/ci.yaml .github/workflows/ci.yaml
           cp -f ./backup/convert.sh script/convert.sh
 
-      - name: Background run subconverter
+      - name: Background run subconverter & http server (nohup)
         run: |
+          set -eux
+          # 下载并启动 subconverter
+          echo "下载 subconverter..."
           curl -s https://api.github.com/repos/tindy2013/subconverter/releases \
             | grep "browser_download_url.*subconverter_linux64.tar.gz" \
             | head -n 1 \
             | cut -d '"' -f 4 \
-            | xargs wget -q
+            | xargs wget -q -O subconverter_linux64.tar.gz
           tar -xf subconverter_linux64.tar.gz
-          ./subconverter/subconverter &
-          python3 -m http.server 8080 --bind 127.0.0.1 --directory './rule/' &
+          chmod +x ./subconverter/subconverter || true
+          echo "启动 subconverter（日志 -> /tmp/subconverter.log）"
+          nohup ./subconverter/subconverter > /tmp/subconverter.log 2>&1 &
 
-      - name: Background run mihomo
+          # 启动本地 http server 提供 rule/ 目录（日志 -> /tmp/httpserver.log）
+          echo "启动本地 http server（日志 -> /tmp/httpserver.log）"
+          nohup python3 -m http.server 8080 --bind 127.0.0.1 --directory './rule/' > /tmp/httpserver.log 2>&1 &
+
+      - name: Install mihomo (CLI only)
         run: |
+          set -eux
+          echo "下载并安装 mihomo .deb"
           curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases \
             | grep "browser_download_url.*mihomo-linux-amd64-alpha.*.deb" \
             | head -n 1 \
             | cut -d '"' -f 4 \
             | xargs wget -q -O mihomo-linux-amd64-alpha.deb
-          sudo apt install --fix-missing ./mihomo-linux-amd64-alpha.deb
-          /usr/bin/mihomo &
+          sudo apt install --fix-missing -y ./mihomo-linux-amd64-alpha.deb
+          echo "mihomo 安装完成（不以后台服务运行）"
 
-      - name: Wait for services
+      - name: Wait for services (health check, fail-fast)
         run: |
-          set -e
-          echo "Waiting for subconverter (127.0.0.1:25500)..."
-          for i in {1..30}; do
-            if curl -fsS http://127.0.0.1:25500/ >/dev/null 2>&1; then echo "subconverter ok"; break; fi
+          set -eux
+          echo "Waiting for subconverter (127.0.0.1:25500) and http server (127.0.0.1:8080/Clash/)..."
+          tries=30
+          ok=0
+          for i in $(seq 1 $tries); do
+            if curl -fsS http://127.0.0.1:25500/ >/dev/null 2>&1 && curl -fsS http://127.0.0.1:8080/Clash/ >/dev/null 2>&1; then
+              echo "本地服务就绪"
+              ok=1
+              break
+            fi
             sleep 1
           done
-          echo "Waiting for local http server (127.0.0.1:8080)..."
-          for i in {1..30}; do
-            if curl -fsS http://127.0.0.1:8080/Clash/ >/dev/null 2>&1; then echo "http server ok"; break; fi
-            sleep 1
-          done
-          echo "mihomo version:"
-          /usr/bin/mihomo --version || true
+          if [[ $ok -ne 1 ]]; then
+            echo "⚠️ 本地服务在 ${tries} 秒内未就绪，打印日志以便排查：" >&2
+            echo "---- /tmp/subconverter.log (tail 200) ----" >&2
+            tail -n 200 /tmp/subconverter.log || true
+            echo "---- /tmp/httpserver.log (tail 200) ----" >&2
+            tail -n 200 /tmp/httpserver.log || true
+            # Fail-fast: 如果服务未就绪，终止 workflow（避免产生误导性转换结果）
+            exit 1
+          fi
 
       - name: start convert
+        env:
+          # 通知脚本：CI 已保证服务就绪，请跳过脚本内部的长等待（避免重复）
+          WAIT_FOR_SERVICES: 'false'
         run: |
           chmod +x ./script/convert.sh
           ./script/convert.sh
-          
+
       - name: Upload convert logs
         uses: actions/upload-artifact@v4
         with:
@@ -91,7 +112,8 @@ jobs:
             ./convert.log
             ./changed_mrs_files.txt
             ./rule/Clash/*.mrs.log
-
+            /tmp/subconverter.log
+            /tmp/httpserver.log
 
       - name: Commit and Push Changes
         run: |
