@@ -30,59 +30,64 @@ jobs:
 
       - name: Sync with upstream
         run: |
+          set -eux
           git checkout master
-          git remote add upstream https://github.com/blackmatrix7/ios_rule_script.git
-          git fetch --depth=1 upstream
+          git remote add upstream https://github.com/blackmatrix7/ios_rule_script.git || true
+          git fetch --depth=1 upstream || true
           mkdir -p ./backup/
-          cp -f .gitignore README.md .github/workflows/ci.yaml script/convert.sh ./backup/
-          git merge upstream/master --strategy-option theirs --allow-unrelated-histories --no-edit
-          cp -f ./backup/.gitignore .gitignore
-          cp -f ./backup/README.md README.md
-          cp -f ./backup/ci.yaml .github/workflows/ci.yaml
-          cp -f ./backup/convert.sh script/convert.sh
+          cp -f .gitignore README.md .github/workflows/ci.yaml script/convert.sh ./backup/ || true
+          git merge upstream/master --strategy-option theirs --allow-unrelated-histories --no-edit || true
+          cp -f ./backup/.gitignore .gitignore || true
+          cp -f ./backup/README.md README.md || true
+          cp -f ./backup/ci.yaml .github/workflows/ci.yaml || true
+          cp -f ./backup/convert.sh script/convert.sh || true
 
-      - name: Background run subconverter
+      - name: Background run subconverter & http server
         run: |
+          set -eux
+          # 下载并解压 subconverter
           curl -s https://api.github.com/repos/tindy2013/subconverter/releases \
             | grep "browser_download_url.*subconverter_linux64.tar.gz" \
             | head -n 1 \
             | cut -d '"' -f 4 \
-            | xargs wget -q
+            | xargs wget -q -O subconverter_linux64.tar.gz
           tar -xf subconverter_linux64.tar.gz
-          ./subconverter/subconverter &
-          python3 -m http.server 8080 --bind 127.0.0.1 --directory './rule/' &
+          chmod +x ./subconverter/subconverter || true
 
-      - name: Background run mihomo
+          # 启动 subconverter（后台），日志写到工作目录
+          echo "启动 subconverter（日志 -> ./subconverter.log）"
+          nohup ./subconverter/subconverter > ./subconverter.log 2>&1 &
+
+          # 启动本地 http server（后台），服务目录为 ./rule/
+          echo "启动本地 http server（日志 -> ./httpserver.log）"
+          nohup python3 -m http.server 8080 --bind 127.0.0.1 --directory './rule/' > ./httpserver.log 2>&1 &
+
+      - name: Sleep for startup
         run: |
+          echo "⏳ 等待 30 秒，给 subconverter 与本地 http server 启动时间..."
+          sleep 30
+
+      - name: Install mihomo (CLI only)
+        run: |
+          set -eux
+          echo "下载并安装 mihomo (.deb)..."
           curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases \
             | grep "browser_download_url.*mihomo-linux-amd64-alpha.*.deb" \
             | head -n 1 \
             | cut -d '"' -f 4 \
             | xargs wget -q -O mihomo-linux-amd64-alpha.deb
-          sudo apt install --fix-missing ./mihomo-linux-amd64-alpha.deb
-          /usr/bin/mihomo &
-
-      - name: Wait for services
-        run: |
-          set -e
-          echo "Waiting for subconverter (127.0.0.1:25500)..."
-          for i in {1..30}; do
-            if curl -fsS http://127.0.0.1:25500/ >/dev/null 2>&1; then echo "subconverter ok"; break; fi
-            sleep 1
-          done
-          echo "Waiting for local http server (127.0.0.1:8080)..."
-          for i in {1..30}; do
-            if curl -fsS http://127.0.0.1:8080/Clash/ >/dev/null 2>&1; then echo "http server ok"; break; fi
-            sleep 1
-          done
-          echo "mihomo version:"
-          /usr/bin/mihomo --version || true
+          sudo apt install --fix-missing -y ./mihomo-linux-amd64-alpha.deb
+          echo "mihomo 安装完成（仅 CLI，不以后台服务运行）"
 
       - name: start convert
+        env:
+          # 通知脚本：CI 已做等待，脚本内部可跳过长等待（脚本需支持该 env）
+          WAIT_FOR_SERVICES: 'false'
         run: |
+          set -eux
           chmod +x ./script/convert.sh
           ./script/convert.sh
-          
+
       - name: Upload convert logs
         uses: actions/upload-artifact@v4
         with:
@@ -91,14 +96,16 @@ jobs:
             ./convert.log
             ./changed_mrs_files.txt
             ./rule/Clash/*.mrs.log
-
+            ./subconverter.log
+            ./httpserver.log
 
       - name: Commit and Push Changes
         run: |
+          set -eux
           if [ -n "$(git status --porcelain)" ]; then
             git add --all
-            git commit -m "${{ env.BUILDTIME }} for OCD"
-            git push origin master
+            git commit -m "${{ env.BUILDTIME }} for OCD" || true
+            git push origin master || true
           else
             echo "No changes to commit"
           fi
