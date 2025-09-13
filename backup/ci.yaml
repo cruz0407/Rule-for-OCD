@@ -18,7 +18,7 @@ jobs:
       - name: Add token
         uses: actions/checkout@v4
         with:
-          repository: peiyingyao/Rule-for-OCD
+          repository: cruz0407/Rule-for-OCD
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set variables
@@ -62,10 +62,36 @@ jobs:
           sudo apt install --fix-missing ./mihomo-linux-amd64-alpha.deb
           /usr/bin/mihomo &
 
+      - name: Wait for services
+        run: |
+          set -e
+          echo "Waiting for subconverter (127.0.0.1:25500)..."
+          for i in {1..30}; do
+            if curl -fsS http://127.0.0.1:25500/ >/dev/null 2>&1; then echo "subconverter ok"; break; fi
+            sleep 1
+          done
+          echo "Waiting for local http server (127.0.0.1:8080)..."
+          for i in {1..30}; do
+            if curl -fsS http://127.0.0.1:8080/Clash/ >/dev/null 2>&1; then echo "http server ok"; break; fi
+            sleep 1
+          done
+          echo "mihomo version:"
+          /usr/bin/mihomo --version || true
+
       - name: start convert
         run: |
           chmod +x ./script/convert.sh
           ./script/convert.sh
+          
+      - name: Upload convert logs
+        uses: actions/upload-artifact@v4
+        with:
+          name: convert-logs
+          path: |
+            ./convert.log
+            ./changed_mrs_files.txt
+            ./rule/Clash/*.mrs.log
+
 
       - name: Commit and Push Changes
         run: |
