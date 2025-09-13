@@ -18,7 +18,7 @@ jobs:
       - name: Add token
         uses: actions/checkout@v4
         with:
-          repository: peiyingyao/Rule-for-OCD
+          repository: cruz0407/Rule-for-OCD
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set variables
