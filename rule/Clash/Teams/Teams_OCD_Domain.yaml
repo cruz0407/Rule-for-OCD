@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'teams.events.data.microsoft.com'
   - '+.teams.cdn.live.net'
   - '+.teams.live.com'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.caing.cn'
   - '+.caing.com'
   - '+.caixin.com'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'asusrouter.com'
   - 'instant.arubanetworks.com'
   - 'oasisauth.h3c.com'

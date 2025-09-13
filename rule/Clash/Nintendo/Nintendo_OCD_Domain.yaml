@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.100classicbooks.com'
   - '+.ac-pocketcamp.com'
   - '+.amiibo.com'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.aol.ca'
   - '+.aol.co.uk'
   - '+.aol.com'

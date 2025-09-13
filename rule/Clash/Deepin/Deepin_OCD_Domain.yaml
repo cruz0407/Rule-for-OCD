@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.chinauos.com'
   - '+.deepin.cn'
   - '+.deepin.com'

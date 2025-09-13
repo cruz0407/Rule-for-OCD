@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.cispaletter.com'
   - '+.cispaletter.org'
   - '+.cometotheduckside.com'

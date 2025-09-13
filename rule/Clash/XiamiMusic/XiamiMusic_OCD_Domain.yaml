@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.xiami.com'
   - '+.xiami.fm'
   - '+.xiami.net'

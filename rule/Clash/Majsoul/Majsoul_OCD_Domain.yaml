@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.game.maj-soul.com'
   - '+.gateway-cdn.maj-soul.com'
   - '+.gateway-hw.maj-soul.com'

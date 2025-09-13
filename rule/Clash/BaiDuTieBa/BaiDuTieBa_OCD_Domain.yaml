@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'als.baidu.com'
   - 'cdn.hiphotos.baidu.com'
   - 'cpro.baidustatic.com'

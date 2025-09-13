@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.3d-game.com'
   - '+.4irc.com'
   - '+.b0ne.com'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.emojipedia.org'
   - '+.worldemojiawards.com'
   - '+.worldemojiday.com'

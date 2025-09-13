@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.52ml.net'
   - '+.banmaaike.com'
   - '+.banmadayuwen.com'

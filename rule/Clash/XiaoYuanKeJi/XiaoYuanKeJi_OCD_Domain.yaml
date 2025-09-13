@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.10010mx.com'
   - '+.5gimos.com'
   - '+.bizport.cn'

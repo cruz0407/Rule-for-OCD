@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.cctv.cn'
   - '+.cctv.com'
   - '+.cctvlib.cn'

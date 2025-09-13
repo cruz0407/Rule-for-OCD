@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.gamedownloads-rockstargames-com.akamaized.net'
   - '+.media-rockstargames-com.akamaized.net'
   - '+.rockstargames.com'

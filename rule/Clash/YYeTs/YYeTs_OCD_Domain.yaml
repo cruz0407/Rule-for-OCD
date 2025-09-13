@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.got001.com'
   - '+.got002.com'
   - '+.jstucdn.com'

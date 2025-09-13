@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'hls-amt.itunes.apple.com'
   - 'hls.itunes.apple.com'
   - 'np-edge.itunes.apple.com'

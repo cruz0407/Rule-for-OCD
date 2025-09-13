@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'apple.imap.mail.yahoo.com'
   - 'apple.smtp.mail.yahoo.com'
   - 'imap-mail.outlook.com'

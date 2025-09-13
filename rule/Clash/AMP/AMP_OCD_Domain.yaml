@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'amp.akamaized.net'
   - '+.amp.dev'
   - '+.ampproject.com'

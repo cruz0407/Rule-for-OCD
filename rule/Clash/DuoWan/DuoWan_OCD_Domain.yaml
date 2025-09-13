@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.5253.com'
   - '+.bcshipgo.com'
   - '+.bigda.com'

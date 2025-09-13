@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.cognito-identity.us-east-1.amazonaws.com'
   - '+.d1k2us671qcoau.cloudfront.net'
   - '+.d2anahhhmp1ffz.cloudfront.net'

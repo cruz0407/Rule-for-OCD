@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.0dxy.cn'
   - '+.biomart.cn'
   - '+.centerwatch.cn'

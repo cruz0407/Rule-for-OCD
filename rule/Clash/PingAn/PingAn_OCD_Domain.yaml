@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.1010-0000.com'
   - '+.18ebank.com'
   - '+.1qianbao.cn'

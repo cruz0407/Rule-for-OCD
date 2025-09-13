@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.95559.com.cn'
   - '+.95559.sh.cn'
   - '+.bankcomm.com'

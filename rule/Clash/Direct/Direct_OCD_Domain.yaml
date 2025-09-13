@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'ad.10010.com'
   - 'ad.12306.cn'
   - 'ain.bgm.tv'

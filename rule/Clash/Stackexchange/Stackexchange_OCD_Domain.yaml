@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.askubuntu.com'
   - '+.blogoverflow.com'
   - '+.codeforaliving.io'

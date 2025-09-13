@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.e-hentai.org'
   - '+.ehgt.org'
   - '+.ehwiki.org'

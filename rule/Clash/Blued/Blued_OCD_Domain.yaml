@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.bf99.com'
   - '+.bldimg.com'
   - '+.bldlive.com'

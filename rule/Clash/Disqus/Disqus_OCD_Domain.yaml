@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.disqus.com'
   - '+.disquscdn.com'
   - '+.disqusservice.com'

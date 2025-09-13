@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '0.code.cotsta.ru'
   - '03.lzzncm.com'
   - '04.lzzncm.com'

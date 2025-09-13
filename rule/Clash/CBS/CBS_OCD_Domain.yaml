@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.amlg.io'
   - '+.cbs.com'
   - '+.cbsaavideo.com'

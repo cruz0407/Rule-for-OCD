@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.baifendian.com'
   - '+.bfdcdn.com'
   - '+.bfdcloud.com'

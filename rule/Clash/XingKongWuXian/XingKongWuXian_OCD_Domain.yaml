@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.avstar01.me'
   - '+.avstar02.me'
   - '+.avstar03.me'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.blurdev.com'
   - '+.cftsupport.com'
   - '+.fm365.com'

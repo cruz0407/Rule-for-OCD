@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.hifengli.com'
   - '+.liexiulive.com'
   - '+.sndks.com'

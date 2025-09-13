@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.aqara.cn'
   - '+.aqara.com'
   - '+.aqara.com.cn'

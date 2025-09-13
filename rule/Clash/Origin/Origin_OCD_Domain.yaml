@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'cloudsync-prod.s3.amazonaws.com'
   - 'eaasserts-a.akamaihd.net'
   - 'origin-a.akamaihd.net'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.editorx.com'
   - '+.parastorage.com'
   - '+.wix-code.com'

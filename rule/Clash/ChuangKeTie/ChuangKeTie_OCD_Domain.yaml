@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.byfan.cn'
   - '+.chuangkit.com'
   - '+.ckt.cn'

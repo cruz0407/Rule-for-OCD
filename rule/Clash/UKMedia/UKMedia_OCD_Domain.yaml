@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'itvpnp.live.ott.irdeto.com'
   - 'itvpnp.stage.ott.irdeto.com'
   - 'itvpnpmobile-a.akamaihd.net'

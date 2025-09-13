@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.esm.run'
   - '+.jsdelivr.com'
   - '+.jsdelivr.net'

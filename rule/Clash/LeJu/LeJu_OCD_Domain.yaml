@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.91leju.cn'
   - '+.91leju.com.cn'
   - '+.91leju.net'

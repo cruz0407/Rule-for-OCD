@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.ele.me'
   - '+.ele.to'
   - '+.eleme.cn'

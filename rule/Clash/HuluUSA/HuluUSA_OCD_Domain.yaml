@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.112263.com'
   - '+.assetshuluimcom-a.akamaihd.net'
   - '+.callhulu.com'

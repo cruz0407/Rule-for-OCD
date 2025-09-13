@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.aod.itunes.apple.com'
   - '+.apple.comscoreresearch.com'
   - '+.apple.news'

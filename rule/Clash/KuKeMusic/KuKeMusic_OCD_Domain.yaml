@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.kuke.com'
   - '+.kukey.com.cn'
   - '+.naxos.cn'

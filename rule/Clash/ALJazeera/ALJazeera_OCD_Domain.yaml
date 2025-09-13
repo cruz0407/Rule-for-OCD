@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.ajplus.net'
   - '+.aljazeera.com'
   - '+.aljazeera.net'

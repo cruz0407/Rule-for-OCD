@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.a1cbafa5ea9a6480cb8e9ffba46cbad9-466059813.us-west-2.elb.amazonaws.com'
   - '+.addthis.com'
   - '+.addthis.com.edgekey.net'

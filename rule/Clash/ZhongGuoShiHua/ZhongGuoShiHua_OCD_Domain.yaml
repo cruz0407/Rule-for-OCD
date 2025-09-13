@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.sinopec-usa.com'
   - '+.sinopec.com'
   - '+.sinopecgroup.com'

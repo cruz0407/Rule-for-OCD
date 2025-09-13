@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.alipay'
   - '+.alipay-corp.com'
   - '+.alipay-eco.com'

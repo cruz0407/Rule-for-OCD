@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.ewqcxz.com'
   - '+.hjkhjkl.com'
   - '+.iopiopl.com'

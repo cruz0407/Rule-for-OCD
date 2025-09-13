@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.juangua.com'
   - '+.linkeye.net'
   - '+.meili-inc.com'

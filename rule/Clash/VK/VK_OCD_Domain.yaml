@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.mvk.com'
   - '+.userapi.com'
   - '+.vk-cdn.me'

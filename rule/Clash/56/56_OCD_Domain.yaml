@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.56.com'
   - '+.56img.com'
   - '+.56imgs.com'

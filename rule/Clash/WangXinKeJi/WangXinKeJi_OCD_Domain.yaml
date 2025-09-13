@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.0101cdn.com'
   - '+.hiveshared.com'
   - '+.ionecloud.cn'

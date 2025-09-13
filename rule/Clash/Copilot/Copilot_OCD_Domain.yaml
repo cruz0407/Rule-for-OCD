@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'api.msn.com'
   - 'api.statsig.com'
   - 'assets.msn.com'

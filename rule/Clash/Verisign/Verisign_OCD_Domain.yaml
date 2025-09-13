@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.verisign.asia'
   - '+.verisign.biz'
   - '+.verisign.ch'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'alt1-mtalk.google.com'
   - 'alt2-mtalk.google.com'
   - 'alt3-mtalk.google.com'

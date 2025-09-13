@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'ai.google.dev'
   - 'aistudio.google.com'
   - 'akmcdnoversea-tw.inter.ptqy.gitv.tv'

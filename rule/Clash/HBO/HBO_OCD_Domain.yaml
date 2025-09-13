@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.bcbolthboa-a.akamaihd.net'
   - '+.cf-images.ap-southeast-1.prod.boltdns.net'
   - '+.cinemax.com'

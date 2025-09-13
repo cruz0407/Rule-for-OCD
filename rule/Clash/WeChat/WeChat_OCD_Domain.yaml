@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'apd-pcdnwxlogin.teg.tencent-cloud.net'
   - 'btrace.qq.com'
   - 'dldir1.qq.com'

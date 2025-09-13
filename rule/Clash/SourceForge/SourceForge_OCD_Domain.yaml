@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.fsdn.com'
   - '+.sf.net'
   - '+.sourceforge.com'

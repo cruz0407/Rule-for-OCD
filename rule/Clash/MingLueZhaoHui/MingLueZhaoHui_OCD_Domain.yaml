@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.3wnet.cn'
   - '+.admonitor.org'
   - '+.grpindex.com'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'live-patreon-marketing.pantheonsite.io'
   - '+.patreon.com'
   - '+.patreoncommunity.com'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.001wifi.com'
   - '+.1kapp.com'
   - '+.4sender.com'

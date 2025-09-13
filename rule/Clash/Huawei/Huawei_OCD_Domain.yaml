@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.abhouses.com'
   - '+.agconnect.link'
   - '+.aicccloud.com'

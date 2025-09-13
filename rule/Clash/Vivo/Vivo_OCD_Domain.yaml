@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.bbk.com'
   - '+.bbktel.com.cn'
   - '+.funtouchos.com'

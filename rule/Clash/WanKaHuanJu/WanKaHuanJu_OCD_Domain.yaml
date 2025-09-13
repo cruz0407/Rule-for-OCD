@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.daxianglingke.cn'
   - '+.daxianglingke.com'
   - '+.daxianglingke.com.cn'

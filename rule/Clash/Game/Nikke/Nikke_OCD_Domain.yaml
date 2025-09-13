@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.anticheatexpert.com'
   - '+.centauriglobal.com'
   - '+.gamepass.com'

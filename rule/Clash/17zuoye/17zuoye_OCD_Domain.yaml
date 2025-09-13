@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.17beijiang.com'
   - '+.17huayuan.com'
   - '+.17jzt.com'

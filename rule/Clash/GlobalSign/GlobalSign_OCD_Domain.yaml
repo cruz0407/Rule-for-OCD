@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.globalsign-media.com'
   - '+.globalsign.be'
   - '+.globalsign.ch'

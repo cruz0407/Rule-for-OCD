@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'www.googleapis.com'
   - '+.docs.google.com'
   - '+.drive.google.com'

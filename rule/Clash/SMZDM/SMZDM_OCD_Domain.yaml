@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.faxianpindao.com'
   - '+.quaolai.com'
   - '+.smzdm.com'

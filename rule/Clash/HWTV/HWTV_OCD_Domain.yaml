@@ -1,4 +1,3 @@
-version: 1
-rules:
+payload:
   - '+.5itv.tv'
   - '+.ocnttv.com'

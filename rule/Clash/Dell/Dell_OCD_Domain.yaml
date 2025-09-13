@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.air-watch.com'
   - '+.airwatchexpress.com'
   - '+.airwatchqa.com'

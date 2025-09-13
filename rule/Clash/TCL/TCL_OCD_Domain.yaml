@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.alcatel-home.com'
   - '+.alcatelmobile.com'
   - '+.blackberry.com'

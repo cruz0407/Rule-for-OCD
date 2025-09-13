@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.battlebreakers.com'
   - '+.eac-cdn.com'
   - '+.easy.ac'

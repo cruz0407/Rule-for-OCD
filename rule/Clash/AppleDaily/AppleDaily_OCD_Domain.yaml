@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.appledaily.com'
   - '+.appledaily.com.hk'
   - '+.appledaily.com.tw'

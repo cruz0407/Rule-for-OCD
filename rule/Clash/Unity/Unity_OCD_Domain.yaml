@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.multiplay.cn'
   - '+.unity.cn'
   - '+.unity.com'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'iphone-stun.strato-iphone.de'
   - 'relay.webwormhole.io'
   - 'stun.1-voip.com'

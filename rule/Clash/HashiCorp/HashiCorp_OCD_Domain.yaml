@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.consul.io'
   - '+.hashicorp.com'
   - '+.nomadproject.io'

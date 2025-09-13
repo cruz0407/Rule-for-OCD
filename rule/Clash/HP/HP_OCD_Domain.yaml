@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.hp.com'
   - '+.hpstore-china.com'
   - '+.hpstore.com'

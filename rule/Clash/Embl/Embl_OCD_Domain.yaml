@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.ebi.ac.uk'
   - '+.embl-hamburg.de'
   - '+.embl.de'

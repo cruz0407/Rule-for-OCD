@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.slack-core.com'
   - '+.slack-edge.com'
   - '+.slack-files.com'

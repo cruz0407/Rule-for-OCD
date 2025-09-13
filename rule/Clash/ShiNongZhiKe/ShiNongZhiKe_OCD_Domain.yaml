@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.senseagro.cn'
   - '+.senseagro.com'
   - '+.senseagro.com.cn'

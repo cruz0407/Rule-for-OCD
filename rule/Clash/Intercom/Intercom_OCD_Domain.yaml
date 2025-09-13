@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.intercom.com'
   - '+.intercom.io'
   - '+.intercomassets.com'

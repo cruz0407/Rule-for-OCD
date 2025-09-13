@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.alitrip.com'
   - '+.asczwa.com'
   - '+.asczxcefsv.com'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.1npq4.tk'
   - '+.coastbyopera.com'
   - '+.gamingbrowsers.com'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.9anime.cz'
   - '+.9anime.id'
   - '+.9anime.to'

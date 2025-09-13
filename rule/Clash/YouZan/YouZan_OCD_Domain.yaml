@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.youzan.com'
   - '+.youzanyun.com'
   - '+.yzcdn.cn'

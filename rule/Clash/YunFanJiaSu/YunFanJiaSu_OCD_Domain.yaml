@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.cdndns2.cn'
   - '+.cdndns2.net'
   - '+.cdnnodedns.cn'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.c-ij.com'
   - '+.canon-cee.com'
   - '+.canon-cmos-sensors.com'

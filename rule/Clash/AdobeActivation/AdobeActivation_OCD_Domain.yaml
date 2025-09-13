@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '1b9khekel6.adobe.io'
   - '3dns-1.adobe.com'
   - '3dns-2.adobe.com'

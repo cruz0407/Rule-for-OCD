@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.17swan.com'
   - '+.37swan.com'
   - '+.91.com'

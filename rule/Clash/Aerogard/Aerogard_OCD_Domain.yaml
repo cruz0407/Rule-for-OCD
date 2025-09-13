@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.aerogard.com.au'
   - '+.aerogard.com.cn'
   - '+.aerogardcn.com'

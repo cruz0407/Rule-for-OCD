@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.about.co.kr'
   - '+.auction.co.kr'
   - '+.e-bay.it'

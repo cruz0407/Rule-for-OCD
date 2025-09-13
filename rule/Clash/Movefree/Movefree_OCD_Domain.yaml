@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.keepmovingwithmovefree.com'
   - '+.move-free.net'
   - '+.movefree.cn'

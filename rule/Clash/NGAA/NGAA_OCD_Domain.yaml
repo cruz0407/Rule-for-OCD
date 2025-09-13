@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.chinagslb.cn'
   - '+.chinagslb.com'
   - '+.chinagslb.net'

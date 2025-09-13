@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.gz12301.com'
   - '+.hainan.com'
   - '+.hainan.net'

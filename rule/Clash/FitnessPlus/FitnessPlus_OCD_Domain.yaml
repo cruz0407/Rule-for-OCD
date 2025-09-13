@@ -1,4 +1,3 @@
-version: 1
-rules:
+payload:
   - 'amp-api.fitness.apple.com'
   - 'hls-svod.itunes.apple.com'

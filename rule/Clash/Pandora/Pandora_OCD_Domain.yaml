@@ -1,4 +1,3 @@
-version: 1
-rules:
+payload:
   - '+.p-cdn.us'
   - '+.pandora.com'

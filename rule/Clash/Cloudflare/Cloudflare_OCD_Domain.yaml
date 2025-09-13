@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.cf-ipfs.com'
   - '+.cf-ns.com'
   - '+.cf-ns.net'

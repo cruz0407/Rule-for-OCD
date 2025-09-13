@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.a2z.com'
   - '+.aboutamazon.cn'
   - '+.aboutamazon.co.uk'

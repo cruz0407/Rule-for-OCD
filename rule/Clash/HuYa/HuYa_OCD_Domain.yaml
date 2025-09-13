@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.huya.com'
   - '+.huyagame.cn'
   - '+.peiwanlu.com'

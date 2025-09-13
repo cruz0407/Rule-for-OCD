@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.20thcenturystudios.com.au'
   - '+.20thcenturystudios.com.br'
   - '+.20thcenturystudios.jp'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.51caocao.cn'
   - '+.51caocao.net'
   - '+.caocaobusiness.cc'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.16q.cn'
   - '+.5read.com'
   - '+.aichaoxing.com'

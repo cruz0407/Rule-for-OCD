@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'a0.app.xiaomi.com'
   - 'api.installer.xiaomi.com'
   - 'api.jr.mi.com'

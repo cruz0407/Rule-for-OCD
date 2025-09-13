@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.12333tc.com'
   - '+.95522.cn'
   - '+.95522.com.cn'

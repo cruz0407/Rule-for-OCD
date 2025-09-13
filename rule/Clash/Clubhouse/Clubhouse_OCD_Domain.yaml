@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'clubhouse.pubnub.com'
   - 'clubhouseprod.s3.amazonaws.com'
   - '+.clubhouse.com'

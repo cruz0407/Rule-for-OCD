@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.1234567.com.cn'
   - '+.18.cn'
   - '+.18.com.cn'

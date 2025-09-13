@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.brainplusplus.com.cn'
   - '+.brainpp.cn'
   - '+.datafun.vip'

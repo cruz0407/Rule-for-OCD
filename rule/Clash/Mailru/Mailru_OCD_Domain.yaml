@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.imgsmail.ru'
   - '+.mail.ru'
   - '+.mycdn.me'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'nbcstreaming.sc.omtrdc.net'
   - '+.bravotv.com'
   - '+.cnbc.com'

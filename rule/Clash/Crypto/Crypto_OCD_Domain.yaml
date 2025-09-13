@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'token-api.metaswap.codefi.network'
   - '+.1inch.io'
   - '+.1ml.com'

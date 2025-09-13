@@ -1,4 +1,3 @@
-version: 1
-rules:
+payload:
   - '+.mail.icloud.com.cn'
   - '+.mail.me.com'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.fast.com'
   - '+.ooklaserver.net'
   - '+.speed.cloudflare.com'

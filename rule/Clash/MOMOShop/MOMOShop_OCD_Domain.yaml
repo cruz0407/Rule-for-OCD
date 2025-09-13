@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.momo.dm'
   - '+.momo5188.com'
   - '+.momomall.com.tw'

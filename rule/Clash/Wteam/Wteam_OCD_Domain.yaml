@@ -1,3 +1,2 @@
-version: 1
-rules:
+payload:
   - '+.ads.wteam.xyz'

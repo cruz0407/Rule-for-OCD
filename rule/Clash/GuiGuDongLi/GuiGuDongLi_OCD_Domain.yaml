@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.ciweekforum.com'
   - '+.enet.com.cn'
   - '+.enet16.cn'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.miiiw.cn'
   - '+.miiiw.com'
   - '+.miiiw.net'

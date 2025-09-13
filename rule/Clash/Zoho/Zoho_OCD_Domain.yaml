@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.zoho.com'
   - '+.zoho.com.au'
   - '+.zoho.eu'

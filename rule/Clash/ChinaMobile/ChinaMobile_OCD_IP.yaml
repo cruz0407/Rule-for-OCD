@@ -1,3 +1,2 @@
-version: 1
-rules:
+payload:
   - '117.161.2.5/32'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.daum.net'
   - '+.daumcdn.net'
   - '+.daumkakao.io'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'd1v5ir2lpwr8os.cloudfront.net'
   - 'd22qjgkvxw22r6.cloudfront.net'
   - 'd25xi40x97liuc.cloudfront.net'

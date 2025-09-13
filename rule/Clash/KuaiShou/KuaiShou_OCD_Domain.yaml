@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.00y9334535.com'
   - '+.027g3nkf40.com'
   - '+.02a5ji7vso.com'

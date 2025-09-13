@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.6pilot.cn'
   - '+.apac.cn'
   - '+.apac.org.cn'

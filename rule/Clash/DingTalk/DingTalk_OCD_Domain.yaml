@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.ddurl.to'
   - '+.dg-work.cn'
   - '+.dingding.xin'

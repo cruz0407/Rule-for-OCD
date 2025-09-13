@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.ebates.com'
   - '+.infoseek.co.jp'
   - '+.o50.jp'

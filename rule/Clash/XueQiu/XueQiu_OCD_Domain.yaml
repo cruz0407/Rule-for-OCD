@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.aiganggu.com'
   - '+.danjuanapp.com'
   - '+.danjuanfunds.com'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.4006663999.cn'
   - '+.6rencn.com'
   - '+.dcocsp.cn'

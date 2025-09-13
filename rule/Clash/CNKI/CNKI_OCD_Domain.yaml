@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.bbf.org.cn'
   - '+.bjsbnet.com'
   - '+.chndoi.cn'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.le.com'
   - '+.lecloud.com'
   - '+.lelecdn.com'

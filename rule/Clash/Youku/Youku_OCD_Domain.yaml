@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.0co3geye.cn'
   - '+.2isbbess.cn'
   - '+.33lwhaoinc.cn'

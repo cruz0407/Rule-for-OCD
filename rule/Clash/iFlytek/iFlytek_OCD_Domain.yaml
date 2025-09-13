@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.4006806555.com'
   - '+.51diyring.com'
   - '+.51lesheng.cn'

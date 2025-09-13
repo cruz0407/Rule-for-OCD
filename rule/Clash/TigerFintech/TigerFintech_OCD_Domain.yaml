@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.itiger.com'
   - '+.laohu8.com'
   - '+.tigerbbs.cn'

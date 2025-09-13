@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'weizhiyundong.list'
   - '+.dicom365.com'
   - '+.dycom365.com'

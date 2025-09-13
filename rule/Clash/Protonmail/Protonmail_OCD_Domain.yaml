@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.pm.me'
   - '+.proton.me'
   - '+.protonmail.ch'

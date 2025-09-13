@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.gitlab-assets.oss-cn-hongkong.aliyuncs.com'
   - '+.gitlab-static.net'
   - '+.gitlab.com'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.weibo.cn'
   - '+.weibo.com'
   - '+.weibocdn.com'

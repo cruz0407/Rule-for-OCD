@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.akabeesoft2.com'
   - '+.akabeesoft3.com'
   - '+.akatsukiworks.com'

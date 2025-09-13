@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.51huitu.cn'
   - '+.51lstt.com'
   - '+.51newsapp.com'

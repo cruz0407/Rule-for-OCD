@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.4399.cn'
   - '+.4399.com'
   - '+.4399.net'

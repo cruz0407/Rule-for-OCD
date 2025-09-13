@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'netease.ugcvideoss.ourdvs.com'
   - '+.126.am'
   - '+.126.com'

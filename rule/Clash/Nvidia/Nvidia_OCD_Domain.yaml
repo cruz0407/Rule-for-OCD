@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.geforce.cn'
   - '+.geforce.co.kr'
   - '+.geforce.co.uk'

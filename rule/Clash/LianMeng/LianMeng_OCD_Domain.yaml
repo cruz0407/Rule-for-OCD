@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.2333333333333.com'
   - '+.bqtalk.com'
   - '+.faceu.com'

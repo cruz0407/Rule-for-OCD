@@ -1,4 +1,3 @@
-version: 1
-rules:
+payload:
   - 'apps.apple.com'
   - 'itunes.apple.com'

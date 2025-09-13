@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.aplestore.com'
   - '+.aplleipods.com'
   - '+.apple-imac.com'

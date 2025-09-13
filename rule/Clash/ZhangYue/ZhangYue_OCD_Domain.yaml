@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.corp3g.cn'
   - '+.ireader.com'
   - '+.ireader.com.cn'

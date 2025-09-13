@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.12diasdepresentesdeitunes.com'
   - '+.12diasderegalosdeitunes.cl'
   - '+.12diasderegalosdeitunes.co'

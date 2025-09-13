@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.biggggg.com'
   - '+.mudvod.tv'
   - '+.nbys.tv'

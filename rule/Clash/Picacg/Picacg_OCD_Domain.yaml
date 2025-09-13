@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.bikaa.xyz'
   - '+.bikac.xyz'
   - '+.bikaios.xyz'

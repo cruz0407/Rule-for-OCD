@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.ikea.ae'
   - '+.ikea.at'
   - '+.ikea.au'

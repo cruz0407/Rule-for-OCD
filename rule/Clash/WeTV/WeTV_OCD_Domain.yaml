@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'wetv.qq.com'
   - '+.iflix-images.akamaized.net'
   - '+.iflix.com'

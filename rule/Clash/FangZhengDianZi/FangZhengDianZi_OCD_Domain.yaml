@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.cloudpress.cn'
   - '+.cloudpub.cn'
   - '+.fangzhengshufa.com'

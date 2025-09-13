@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'netease.ugcvideoss.ourdvs.com'
   - '+.163yun.com'
   - '+.api.iplay.163.com'

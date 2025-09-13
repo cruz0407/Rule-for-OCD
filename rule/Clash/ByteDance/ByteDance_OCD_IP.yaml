@@ -1,3 +1,2 @@
-version: 1
-rules:
+payload:
   - '114.246.10.65/32'

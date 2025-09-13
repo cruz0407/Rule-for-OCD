@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.academynetriders.com'
   - '+.app-dynamics.com'
   - '+.appdynamics.co.uk'

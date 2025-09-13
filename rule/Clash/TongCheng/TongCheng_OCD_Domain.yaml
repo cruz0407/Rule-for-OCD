@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.17u.cn'
   - '+.17u.net'
   - '+.17usoft.com'

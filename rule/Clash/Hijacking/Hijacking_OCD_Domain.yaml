@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'geo2.adobe.com'
   - '+.17gouwuba.com'
   - '+.186078.com'

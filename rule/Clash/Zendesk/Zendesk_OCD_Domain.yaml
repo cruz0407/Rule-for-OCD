@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.outbound.io'
   - '+.zdassets.com'
   - '+.zdusercontent.com'

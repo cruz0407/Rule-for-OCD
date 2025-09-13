@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.apple-cloudkit.com'
   - '+.apple-mapkit.com'
   - '+.apple.com.akadns.net'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.clickedu.co.uk'
   - '+.deepfreeze.co.uk'
   - '+.deepfreeze.com'

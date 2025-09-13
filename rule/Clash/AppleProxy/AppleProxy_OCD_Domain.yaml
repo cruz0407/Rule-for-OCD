@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'api-glb-sea.smoot.apple.com'
   - 'apple.comscoreresearch.com'
   - 'books.itunes.apple.com'

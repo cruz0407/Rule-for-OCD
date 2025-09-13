@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.amazontrust.com'
   - '+.awstrust.com'
   - '+.ss2.us'

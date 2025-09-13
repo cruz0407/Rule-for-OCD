@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'assets1.xboxlive.com'
   - 'assets2.xboxlive.com'
   - 'blizzard.gcdn.cloudn.co.kr'

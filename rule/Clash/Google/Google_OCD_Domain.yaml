@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'voice.telephony.goog'
   - '+.0emm.com'
   - '+.1e100.net'

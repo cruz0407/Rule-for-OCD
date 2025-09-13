@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.videopress.com'
   - '+.w.org'
   - '+.wordpress.com'

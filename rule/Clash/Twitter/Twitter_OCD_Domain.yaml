@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.ads-twitter.com'
   - '+.cms-twdigitalassets.com'
   - '+.periscope.tv'

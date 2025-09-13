@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.56che.com'
   - '+.cainiao-inc.cn'
   - '+.cainiao-inc.com'

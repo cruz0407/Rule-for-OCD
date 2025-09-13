@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.1010.com.hk'
   - '+.d1k2us671qcoau.cloudfront.net'
   - '+.dfp6rglgjqszk.cloudfront.net'

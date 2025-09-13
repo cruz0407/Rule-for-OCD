@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.0360.cn'
   - '+.1360.cn'
   - '+.1360.com'

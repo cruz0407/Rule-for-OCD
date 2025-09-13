@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.sojump.com'
   - '+.wjx.cn'
   - '+.wjx.com'

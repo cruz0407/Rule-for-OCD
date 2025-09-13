@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.dmc.nico'
   - '+.nicodic.jp'
   - '+.nicomanga.jp'

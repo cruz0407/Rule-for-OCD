@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'api.imem.app'
   - 'api.swiftgram.app'
   - '+.cdn-telegram.org'

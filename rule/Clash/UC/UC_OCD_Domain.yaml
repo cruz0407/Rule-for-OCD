@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.appchaoshi.cn'
   - '+.appsmall.mobi'
   - '+.babybubble.cn'

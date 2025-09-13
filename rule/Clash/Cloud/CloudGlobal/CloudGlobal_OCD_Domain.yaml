@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.1fhjlv1.oloadcdn.net'
   - '+.a.o333o.com'
   - '+.cdn.vidarequre.com'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.9cdn.net'
   - '+.9nation.com.au'
   - '+.9news.com.au'

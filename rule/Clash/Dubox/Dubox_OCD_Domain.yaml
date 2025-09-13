@@ -1,4 +1,3 @@
-version: 1
-rules:
+payload:
   - '+.dubox.com'
   - '+.duboxcdn.com'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.dacom.co.kr'
   - '+.kidc.net'
   - '+.lg.com'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'assets1.xboxlive.cn'
   - 'assets2.xboxlive.cn'
   - 'cdn-ali.content.steamchina.com'

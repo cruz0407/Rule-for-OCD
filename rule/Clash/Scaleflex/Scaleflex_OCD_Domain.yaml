@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.cloudimage.io'
   - '+.cloudimg.io'
   - '+.scaleflex.com'

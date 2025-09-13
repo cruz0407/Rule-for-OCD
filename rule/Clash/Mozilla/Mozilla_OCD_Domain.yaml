@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.bugzilla.org'
   - '+.crates.io'
   - '+.docs.rs'

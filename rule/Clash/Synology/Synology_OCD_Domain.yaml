@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'd2f0395ykn6hxb.cloudfront.net'
   - '+.diskstation.me'
   - '+.dscloud.biz'

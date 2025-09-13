@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.10035.com.cn'
   - '+.chinadzfp.com'
   - '+.cloudytrace.cn'

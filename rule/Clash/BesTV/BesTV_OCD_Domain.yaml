@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.bbtv.cn'
   - '+.bestv.com.cn'
   - '+.bestvcdn.cn'

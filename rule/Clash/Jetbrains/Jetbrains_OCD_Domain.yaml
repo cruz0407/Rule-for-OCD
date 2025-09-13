@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.datalore.io'
   - '+.grazie.ai'
   - '+.intellij.com'

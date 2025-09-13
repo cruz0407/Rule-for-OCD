@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.4myminicard.com'
   - '+.aboutyourmini.com'
   - '+.alfera.com.hk'

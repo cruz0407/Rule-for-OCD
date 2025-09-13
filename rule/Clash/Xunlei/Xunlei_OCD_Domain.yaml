@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.00cdn.com'
   - '+.155.com'
   - '+.2sonar.com'

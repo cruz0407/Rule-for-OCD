@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'edge.activity.windows.com'
   - 'edge.microsoft.com'
   - 'iecvlist.microsoft.com'

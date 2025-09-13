@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'abematv.akamaized.net'
   - 'ds-linear-abematv.akamaized.net'
   - 'ds-vod-abematv.akamaized.net'

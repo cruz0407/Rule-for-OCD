@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.advertising.com'
   - '+.aol.co.uk'
   - '+.aol.com'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'espn.api.edge.bamgrid.com'
   - 'espn.hb.omtrdc.net'
   - 'espndotcom.tt.omtrdc.net'

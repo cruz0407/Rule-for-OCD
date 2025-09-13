@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.malayalamanorama.com'
   - '+.manorama.com'
   - '+.manoramanews.com'

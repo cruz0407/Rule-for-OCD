@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.hifuntv.com'
   - '+.hitv.com'
   - '+.hunaniptv.com'

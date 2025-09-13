@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'api.waqi.info'
   - 'aqi.aqicn.org'
   - 'assets-priconne-redive-us.akamaized.net'

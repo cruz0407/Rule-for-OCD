@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '1dot1dot1dot1.cloudflare-dns.com'
   - '8888.google'
   - 'adblock.mydns.network'

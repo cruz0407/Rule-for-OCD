@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.nikkei.co.jp'
   - '+.nikkei.com'
   - '+.nikkei.jp'

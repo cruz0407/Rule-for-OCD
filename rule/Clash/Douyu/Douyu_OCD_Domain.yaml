@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.bytefcdnrd.com'
   - '+.douyu.com'
   - '+.douyu.tv'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '1-fss24-s0.streamhoster.com'
   - '1.cache.applinzi.com'
   - '12371alic.v.myalicdn.com'

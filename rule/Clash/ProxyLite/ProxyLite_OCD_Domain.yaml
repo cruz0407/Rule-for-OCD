@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'addons.mozilla.org'
   - 'amp-api.podcasts.apple.com'
   - 'api.msn.com'

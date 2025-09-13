@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.shenma-inc.com'
   - '+.sm.cn'
   - '+.smapi.cn'

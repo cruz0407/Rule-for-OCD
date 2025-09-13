@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.a-map.cn'
   - '+.a-map.co'
   - '+.a-map.link'

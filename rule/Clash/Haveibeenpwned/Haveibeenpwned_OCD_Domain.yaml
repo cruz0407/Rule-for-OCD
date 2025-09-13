@@ -1,4 +1,3 @@
-version: 1
-rules:
+payload:
   - '+.haveibeenpwned.com'
   - '+.pwnedpasswords.com'

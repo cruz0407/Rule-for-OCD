@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.packagecontrol.io'
   - '+.sublimehq.com'
   - '+.sublimemerge.com'

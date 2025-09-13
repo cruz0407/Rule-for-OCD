@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.atlassian.com'
   - '+.bitbucket.org'
   - '+.statuspage.io'

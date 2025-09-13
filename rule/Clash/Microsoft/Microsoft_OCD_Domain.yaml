@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'vsmarketplacebadge.apphb.com'
   - '+.1drv.ms'
   - '+.21vbc.com'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.genshinimpact.com'
   - '+.honkaiimpact3.com'
   - '+.honkaistarrail.com'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.nypost.com'
   - '+.nypost.help'
   - '+.nypostreprints.com'

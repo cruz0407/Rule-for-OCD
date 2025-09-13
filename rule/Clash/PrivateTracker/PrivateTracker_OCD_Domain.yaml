@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '0123456789nonexistent.com'
   - '0d.kebhana.mx'
   - '1337.abcvg.info'

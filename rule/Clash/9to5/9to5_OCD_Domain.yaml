@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.9to5google.com'
   - '+.9to5mac.com'
   - '+.9to5terminal.com'

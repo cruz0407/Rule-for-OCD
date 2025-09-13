@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.35go.cn'
   - '+.35go.net'
   - '+.3ny8.com'

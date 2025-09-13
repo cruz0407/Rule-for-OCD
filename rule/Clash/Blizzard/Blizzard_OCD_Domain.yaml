@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.battle.net'
   - '+.battlenet.com.cn'
   - '+.blizzard.com'

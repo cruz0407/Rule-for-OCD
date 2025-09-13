@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'analytics.strava.com'
   - 'blzddist1-a.akamaihd.net'
   - 'cdn.angruo.com'

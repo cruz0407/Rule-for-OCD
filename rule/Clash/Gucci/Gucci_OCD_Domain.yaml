@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.chimeforchange.org'
   - '+.gucci.cn'
   - '+.gucci.com'

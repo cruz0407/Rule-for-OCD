@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.91huayi.cn'
   - '+.91huayi.com'
   - '+.91huayi.net'

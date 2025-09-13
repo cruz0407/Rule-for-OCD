@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.ext-twitch.tv'
   - '+.jtvnw.net'
   - '+.live-video.net'

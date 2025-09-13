@@ -1,3 +1,2 @@
-version: 1
-rules:
+payload:
   - '43.152.114.31/32'

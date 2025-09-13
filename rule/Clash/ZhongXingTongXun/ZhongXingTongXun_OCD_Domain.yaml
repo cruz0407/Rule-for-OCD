@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.3gcare.cn'
   - '+.nubia.cc'
   - '+.nubia.cn'

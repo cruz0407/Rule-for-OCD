@@ -1,4 +1,3 @@
-version: 1
-rules:
+payload:
   - '+.op.gg'
   - '+.opgg-static.akamaized.net'

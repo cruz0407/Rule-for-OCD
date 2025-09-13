@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.fengcx.com'
   - '+.fengedu.com'
   - '+.fengzhibo.com.cn'

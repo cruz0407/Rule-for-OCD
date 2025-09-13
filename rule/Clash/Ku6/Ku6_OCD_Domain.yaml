@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.feedsp.com'
   - '+.juchang.cn'
   - '+.juchang.com.cn'

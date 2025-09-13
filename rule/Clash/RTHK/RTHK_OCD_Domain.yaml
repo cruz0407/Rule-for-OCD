@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'rthklive2-lh.akamaihd.net'
   - 'rthkradio1-live.akamaized.net'
   - 'rthkradio2-live.akamaized.net'

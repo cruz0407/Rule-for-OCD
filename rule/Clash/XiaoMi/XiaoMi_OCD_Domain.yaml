@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.408399.com'
   - '+.408399.net'
   - '+.816798.net'

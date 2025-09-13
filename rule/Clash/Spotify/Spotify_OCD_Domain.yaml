@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'audio4-ak-spotify-com.akamaized.net'
   - 'cdn-spotify-experiments.conductrics.com'
   - 'heads-ak-spotify-com.akamaized.net'

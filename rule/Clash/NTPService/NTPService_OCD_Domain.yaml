@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.cn.ntp.org.cn'
   - '+.de.ntp.org.cn'
   - '+.edu.ntp.org.cn'

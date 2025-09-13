@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.acadn.cn'
   - '+.acadn.com'
   - '+.bbbcdns.com'

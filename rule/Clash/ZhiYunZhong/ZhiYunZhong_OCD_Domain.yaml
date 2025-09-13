@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.2taobao2jd.com'
   - '+.appgrub.com'
   - '+.cloudau.cn'

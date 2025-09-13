@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.c-ctrip.com'
   - '+.colinker.com'
   - '+.ctrip.cn'

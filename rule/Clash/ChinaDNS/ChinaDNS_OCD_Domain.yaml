@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.dns.alidns.com'
   - '+.doh.360.cn'
   - '+.doh.pub'

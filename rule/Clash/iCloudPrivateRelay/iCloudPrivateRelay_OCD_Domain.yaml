@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'mask-api.fe.apple-dns.net'
   - 'mask-api.icloud.com'
   - 'mask-t.apple-dns.net'

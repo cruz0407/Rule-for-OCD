@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.buypass-ssl.com'
   - '+.buypass.com'
   - '+.buypass.no'

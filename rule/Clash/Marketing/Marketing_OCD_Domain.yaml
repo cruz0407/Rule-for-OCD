@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.4009997658.com'
   - '+.abbyychina.com'
   - '+.bartender.cc'

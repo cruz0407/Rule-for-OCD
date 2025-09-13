@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.bank-of-china.com'
   - '+.bankofchina.com'
   - '+.boc.cn'

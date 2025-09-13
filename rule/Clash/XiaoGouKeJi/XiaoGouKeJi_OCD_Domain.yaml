@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.8moom.com'
   - '+.moomv.com'
   - '+.puppy888.com'

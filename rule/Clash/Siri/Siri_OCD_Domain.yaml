@@ -1,3 +1,2 @@
-version: 1
-rules:
+payload:
   - 'guzzoni.apple.com'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.jquery.com'
   - '+.jquerymobile.com'
   - '+.jqueryui.com'

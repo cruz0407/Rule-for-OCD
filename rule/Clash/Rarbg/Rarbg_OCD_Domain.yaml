@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.dyncdn.me'
   - '+.proxyrarbg.org'
   - '+.rarbg.bypassed.org'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'last.us11.list-manage.com'
   - 'lastfm-img2.akamaized.net'
   - '+.audioscrobbler.com'

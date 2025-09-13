@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.b-gold-cdn.xitu.io'
   - '+.juejin.im'
   - '+.mirror-gold-cdn.xitu.io'

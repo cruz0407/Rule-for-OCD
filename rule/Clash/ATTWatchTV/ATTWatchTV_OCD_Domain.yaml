@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.att.tv'
   - '+.atttvnow.com'
   - '+.attwatchtv.com'

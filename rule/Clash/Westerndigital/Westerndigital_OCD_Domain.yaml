@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.g-technology.com'
   - '+.sandisk.ae'
   - '+.sandisk.cn'

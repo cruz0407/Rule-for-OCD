@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'blizzard.nefficient.co.kr'
   - 'blzddist1-a.akamaihd.net'
   - 'blzddistkr1-a.akamaihd.net'

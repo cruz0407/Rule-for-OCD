@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.maoyun.com'
   - '+.maoyuncloud.cn'
   - '+.maoyuncloud.com'

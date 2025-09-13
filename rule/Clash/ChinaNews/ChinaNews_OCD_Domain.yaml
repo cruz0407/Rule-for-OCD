@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.chinanews.com'
   - '+.chinanews.com.cn'
   - '+.cns.com.cn'

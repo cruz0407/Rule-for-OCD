@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.hpplay.cn'
   - '+.hpplay.com.cn'
   - '+.mirrorcast.cn'

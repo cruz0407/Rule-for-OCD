@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.ccb-life.com.cn'
   - '+.ccb.cn'
   - '+.ccb.com'

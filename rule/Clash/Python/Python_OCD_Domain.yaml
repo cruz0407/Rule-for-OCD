@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.pycon.org'
   - '+.pypa.io'
   - '+.pypi.io'

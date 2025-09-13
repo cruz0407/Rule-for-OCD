@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.affirmtrust.com'
   - '+.atos.net'
   - '+.certificat2.com'

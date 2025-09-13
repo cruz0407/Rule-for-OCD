@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.logi.com'
   - '+.logicool.co.jp'
   - '+.logicoolg.com'

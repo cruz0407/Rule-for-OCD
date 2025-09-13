@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.abema-tv.com'
   - '+.abema.io'
   - '+.abema.tv'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.168kaifu.com'
   - '+.17173-inc.com'
   - '+.17173.com'

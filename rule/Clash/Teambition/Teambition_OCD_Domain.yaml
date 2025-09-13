@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.jianliao.com'
   - '+.project.ai'
   - '+.talk.ai'

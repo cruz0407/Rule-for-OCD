@@ -1,4 +1,3 @@
-version: 1
-rules:
+payload:
   - '+.flipboard.com'
   - '+.flipchina.cn'

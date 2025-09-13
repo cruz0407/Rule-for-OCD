@@ -1,4 +1,3 @@
-version: 1
-rules:
+payload:
   - 'litvfreemobile-hichannel.cdn.hinet.net'
   - '+.litv.tv'

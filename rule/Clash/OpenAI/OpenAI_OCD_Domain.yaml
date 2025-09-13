@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - 'browser-intake-datadoghq.com'
   - 'chat.openai.com.cdn.cloudflare.net'
   - 'openai-api.arkoselabs.com'

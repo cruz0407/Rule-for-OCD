@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.cstatic.net'
   - '+.curbed.com'
   - '+.eater.com'

@@ -1,5 +1,4 @@
-version: 1
-rules:
+payload:
   - '+.addthis.com'
   - '+.addthiscdn.com'
   - '+.addthisedge.com'
