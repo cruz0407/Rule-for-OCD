@@ -151,29 +151,31 @@ while IFS= read -r -d '' yamlfile; do
   esac
 
   output_file="$file_dir/$filename.mrs"
+  domain_hash_file="${output_file}.domains.md5"
   tmp_output="${output_file}.tmp"
   per_log="$file_dir/$filename.mrs.log"
 
-  old_md5=""
-  [[ -f "$output_file" ]] && old_md5=$(md5sum "$output_file" | awk '{print $1}')
-  log "开始转换：$yamlfile -> $output_file （临时 $tmp_output），之前 md5=${old_md5:-<无>}"
+  # 从 YAML 中提取排序唯一域名，计算内容 hash
+  new_domain_hash=$(grep -oP "'[^']+'" "$yamlfile" | tr -d "'" | sort -u | md5sum | awk '{print $1}')
+  old_domain_hash=""
+  [[ -f "$domain_hash_file" ]] && old_domain_hash=$(cat "$domain_hash_file")
+
+  log "开始转换：$yamlfile -> $output_file，域名hash=${new_domain_hash}，之前=${old_domain_hash:-<无>}"
+
+  if [[ "$new_domain_hash" == "$old_domain_hash" ]] && [[ -f "$output_file" ]]; then
+    log "ℹ️ 域名列表未变化，跳过转换：$output_file"
+    continue
+  fi
 
   if /usr/bin/mihomo convert-ruleset "$param" yaml "$yamlfile" "$tmp_output" >"$per_log" 2>&1; then
-    new_md5=$(md5sum "$tmp_output" | awk '{print $1}')
-    if [[ "$new_md5" != "$old_md5" ]]; then
-      mv "$tmp_output" "$output_file"
-      echo "$output_file $old_md5 -> $new_md5" >> "$CHANGED_LIST"
-      log "✅ 转换并更新：$output_file （$old_md5 -> $new_md5）"
-    else
-      rm -f "$tmp_output"
-      log "ℹ️ 转换结果与现有 .mrs 相同，未更新：$output_file (md5 $new_md5)"
-    fi
-    # 成功则删除 per-log（按你的要求）
+    mv "$tmp_output" "$output_file"
+    echo "$new_domain_hash" > "$domain_hash_file"
+    echo "$output_file ${old_domain_hash:-<新>} -> $new_domain_hash" >> "$CHANGED_LIST"
+    log "✅ 转换并更新：$output_file （${old_domain_hash:-<新>} -> $new_domain_hash）"
     [[ -f "$per_log" ]] && rm -f "$per_log" && log "已删除成功转换产生的日志文件：$per_log"
   else
     log "❌ 转换失败（yaml）：$yamlfile；保留日志：$per_log"
     dump_per_log_head "$per_log" 400
-    # 继续处理下一个文件（不退出）
   fi
 done < <(find . -type f -name "*_OCD_*.yaml" -print0)
 log "结束阶段：yaml -> mrs"
@@ -205,23 +207,27 @@ while IFS= read -r -d '' txtfile; do
   esac
 
   output_file="$file_dir/$filename.mrs"
+  domain_hash_file="${output_file}.domains.md5"
   tmp_output="${output_file}.tmp"
   per_log="$file_dir/$filename.mrs.log"
 
-  old_md5=""
-  [[ -f "$output_file" ]] && old_md5=$(md5sum "$output_file" | awk '{print $1}')
-  log "开始 TXT 转换：$txtfile -> $output_file （临时 $tmp_output），之前 md5=${old_md5:-<无>}"
+  # 从清洗后的 TXT 中提取排序唯一域名，计算内容 hash
+  new_domain_hash=$(cat "$txtfile" | tr -d '\r' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//' | grep -v '^$' | sort -u | md5sum | awk '{print $1}')
+  old_domain_hash=""
+  [[ -f "$domain_hash_file" ]] && old_domain_hash=$(cat "$domain_hash_file")
+
+  log "开始 TXT 转换：$txtfile -> $output_file，域名hash=${new_domain_hash}，之前=${old_domain_hash:-<无>}"
+
+  if [[ "$new_domain_hash" == "$old_domain_hash" ]] && [[ -f "$output_file" ]]; then
+    log "ℹ️ 域名列表未变化，跳过 TXT 转换：$output_file"
+    continue
+  fi
 
   if /usr/bin/mihomo convert-ruleset "$param" text "$txtfile" "$tmp_output" >"$per_log" 2>&1; then
-    new_md5=$(md5sum "$tmp_output" | awk '{print $1}')
-    if [[ "$new_md5" != "$old_md5" ]]; then
-      mv "$tmp_output" "$output_file"
-      echo "$output_file $old_md5 -> $new_md5" >> "$CHANGED_LIST"
-      log "✅ TXT 转换并更新：$output_file （$old_md5 -> $new_md5）"
-    else
-      rm -f "$tmp_output"
-      log "ℹ️ TXT 转换结果未改变 .mrs：$output_file (md5 $new_md5)"
-    fi
+    mv "$tmp_output" "$output_file"
+    echo "$new_domain_hash" > "$domain_hash_file"
+    echo "$output_file ${old_domain_hash:-<新>} -> $new_domain_hash" >> "$CHANGED_LIST"
+    log "✅ TXT 转换并更新：$output_file （${old_domain_hash:-<新>} -> $new_domain_hash）"
     [[ -f "$per_log" ]] && rm -f "$per_log" && log "已删除成功 TXT 转换产生的日志文件：$per_log"
   else
     log "❌ TXT 转换失败：$txtfile；保留日志：$per_log"
