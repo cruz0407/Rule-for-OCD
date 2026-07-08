@@ -1,7 +1,0 @@
-./Advertising/Advertising_OCD_Domain.mrs dea3bffcacd2d1c62dee4e1a43736544 -> 4d0cddf42338bab8c05d0baa9f6ca995
-./ChinaIPs/ChinaIPsTest/ChinaIPsTest_OCD_IP.mrs c14b11f75920ff86f4ffee32523daf1a -> 747ec69a26080e4d6974eec68acee791
-./ChinaIPs/ChinaIPs_OCD_IP.mrs b316860374e5a32dc50725b0045ccc1a -> 3c6c95dae5948bfba4e2e477350d15d5
-./AdvertisingTest/AdvertisingTest_OCD_Domain.mrs 07bf35bf4e769a3dab8fb0f436219674 -> e26a2898b7ad7e78617535305d57a580
-./Global/Global_OCD_Domain.mrs 0ee6c66ee844d65c0a6a0fffd9a2a3df -> 9b09ee52011055b867500daa1ea0d73e
-./ChinaMaxNoMedia/ChinaMaxNoMedia_OCD_IP.mrs 42b029343ea3c4a1880ff725242fd7a1 -> e9a43ef4c78ff360bb0a396552b2a409
-./ChinaMax/ChinaMax_OCD_IP.mrs 42b029343ea3c4a1880ff725242fd7a1 -> e9a43ef4c78ff360bb0a396552b2a409
